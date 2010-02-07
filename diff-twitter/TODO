@@ -1,11 +1,9 @@
 Here are the TODO list that we have to do for publishing in general. You are able to see specific TODOs in main.py and other files.
 
 - How to store .html files into Big Table of Google App Engine
--- How 
 
 - How to manage user ID and URL data in Big Table
 -- How to deal with the case that ID is different but URL is same.
 
 - Create main.cgi in which there are two input forms: User ID for whispering from diff_bot and URL for using "diff"
 
--  

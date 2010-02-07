@@ -1,0 +1,9558 @@
+cscope 15 $HOME/work/gae/diff-twitter               0000052523
+	@simplejson/_speedups.c
+
+1 
+	~"Pyth⁄.h
+"
+
+2 
+	~"°ru˘membî.h
+"
+
+3 #i‡
+PY_VERSION_HEX
+ < 0x02060000 && !
+deföed
+(
+Py_TYPE
+)
+
+4 
+	#Py_TYPE
+(
+ob
+Ë(((
+PyObje˘
+*)(ob))->
+ob_ty≥
+)
+
+	)
+
+6 #i‡
+PY_VERSION_HEX
+ < 0x02050000 && !
+deföed
+(
+PY_SSIZE_T_MIN
+)
+
+7 
+	tPy_ssize_t
+;
+
+8 
+	#PY_SSIZE_T_MAX
+ 
+INT_MAX
+
+
+	)
+
+9 
+	#PY_SSIZE_T_MIN
+ 
+INT_MIN
+
+
+	)
+
+10 
+	#PyI¡_FromSsize_t
+ 
+PyI¡_FromL⁄g
+
+
+	)
+
+11 
+	#PyI¡_AsSsize_t
+ 
+PyI¡_AsL⁄g
+
+
+	)
+
+13 #i‚de‡
+Py_IS_FINITE
+
+
+14 
+	#Py_IS_FINITE
+(
+X
+Ë(!
+	`Py_IS_INFINITY
+(XË&& !
+	`Py_IS_NAN
+(X))
+
+	)
+
+17 #ifde‡
+__GNUC__
+
+
+18 
+	#UNUSED
+ 
+	`__©åibuã__
+((
+__unu£d__
+))
+
+	)
+
+20 
+	#UNUSED
+
+
+	)
+
+23 
+	#DEFAULT_ENCODING
+ "utf-8"
+
+	)
+
+25 
+	#PySˇ¬î_Check
+(
+›
+Ë
+	`PyObje˘_Ty≥Check
+(›, &
+PySˇ¬îTy≥
+)
+
+	)
+
+26 
+	#PySˇ¬î_CheckExa˘
+(
+›
+Ë(
+	`Py_TYPE
+(›Ë=&
+PySˇ¬îTy≥
+)
+
+	)
+
+27 
+	#PyEncodî_Check
+(
+›
+Ë
+	`PyObje˘_Ty≥Check
+(›, &
+PyEncodîTy≥
+)
+
+	)
+
+28 
+	#PyEncodî_CheckExa˘
+(
+›
+Ë(
+	`Py_TYPE
+(›Ë=&
+PyEncodîTy≥
+)
+
+	)
+
+30 
+PyTy≥Obje˘
+ 
+	gPySˇ¬îTy≥
+;
+
+31 
+PyTy≥Obje˘
+ 
+	gPyEncodîTy≥
+;
+
+33 
+	s_PySˇ¬îObje˘
+ {
+
+34 
+PyObje˘_HEAD
+
+
+35 
+PyObje˘
+ *
+	mícodög
+;
+
+36 
+PyObje˘
+ *
+	m°ri˘
+;
+
+37 
+PyObje˘
+ *
+	mobje˘_hook
+;
+
+38 
+PyObje˘
+ *
+	m∑r£_Êﬂt
+;
+
+39 
+PyObje˘
+ *
+	m∑r£_öt
+;
+
+40 
+PyObje˘
+ *
+	m∑r£_c⁄°™t
+;
+
+41 } 
+	tPySˇ¬îObje˘
+;
+
+43 
+PyMembîDef
+ 
+	gsˇ¬î_membîs
+[] = {
+
+44 {"ícodög", 
+T_OBJECT
+, 
+off£tof
+(
+PySˇ¬îObje˘
+, 
+ícodög
+), 
+READONLY
+, "encoding"},
+
+45 {"°ri˘", 
+T_OBJECT
+, 
+off£tof
+(
+PySˇ¬îObje˘
+, 
+°ri˘
+), 
+READONLY
+, "strict"},
+
+46 {"obje˘_hook", 
+T_OBJECT
+, 
+off£tof
+(
+PySˇ¬îObje˘
+, 
+obje˘_hook
+), 
+READONLY
+, "object_hook"},
+
+47 {"∑r£_Êﬂt", 
+T_OBJECT
+, 
+off£tof
+(
+PySˇ¬îObje˘
+, 
+∑r£_Êﬂt
+), 
+READONLY
+, "parse_float"},
+
+48 {"∑r£_öt", 
+T_OBJECT
+, 
+off£tof
+(
+PySˇ¬îObje˘
+, 
+∑r£_öt
+), 
+READONLY
+, "parse_int"},
+
+49 {"∑r£_c⁄°™t", 
+T_OBJECT
+, 
+off£tof
+(
+PySˇ¬îObje˘
+, 
+∑r£_c⁄°™t
+), 
+READONLY
+, "parse_constant"},
+
+50 {
+NULL
+}
+
+53 
+	s_PyEncodîObje˘
+ {
+
+54 
+PyObje˘_HEAD
+
+
+55 
+PyObje˘
+ *
+	mm¨kîs
+;
+
+56 
+PyObje˘
+ *
+	mdeÁu…‚
+;
+
+57 
+PyObje˘
+ *
+	mícodî
+;
+
+58 
+PyObje˘
+ *
+	mödít
+;
+
+59 
+PyObje˘
+ *
+	mkey_£∑øt‹
+;
+
+60 
+PyObje˘
+ *
+	môem_£∑øt‹
+;
+
+61 
+PyObje˘
+ *
+	ms‹t_keys
+;
+
+62 
+PyObje˘
+ *
+	mskùkeys
+;
+
+63 
+	mÁ°_ícode
+;
+
+64 
+	mÆlow_«n
+;
+
+65 } 
+	tPyEncodîObje˘
+;
+
+67 
+PyMembîDef
+ 
+	gícodî_membîs
+[] = {
+
+68 {"m¨kîs", 
+T_OBJECT
+, 
+off£tof
+(
+PyEncodîObje˘
+, 
+m¨kîs
+), 
+READONLY
+, "markers"},
+
+69 {"deÁu…", 
+T_OBJECT
+, 
+off£tof
+(
+PyEncodîObje˘
+, 
+deÁu…‚
+), 
+READONLY
+, "default"},
+
+70 {"ícodî", 
+T_OBJECT
+, 
+off£tof
+(
+PyEncodîObje˘
+, 
+ícodî
+), 
+READONLY
+, "encoder"},
+
+71 {"ödít", 
+T_OBJECT
+, 
+off£tof
+(
+PyEncodîObje˘
+, 
+ödít
+), 
+READONLY
+, "indent"},
+
+72 {"key_£∑øt‹", 
+T_OBJECT
+, 
+off£tof
+(
+PyEncodîObje˘
+, 
+key_£∑øt‹
+), 
+READONLY
+, "key_separator"},
+
+73 {"ôem_£∑øt‹", 
+T_OBJECT
+, 
+off£tof
+(
+PyEncodîObje˘
+, 
+ôem_£∑øt‹
+), 
+READONLY
+, "item_separator"},
+
+74 {"s‹t_keys", 
+T_OBJECT
+, 
+off£tof
+(
+PyEncodîObje˘
+, 
+s‹t_keys
+), 
+READONLY
+, "sort_keys"},
+
+75 {"skùkeys", 
+T_OBJECT
+, 
+off£tof
+(
+PyEncodîObje˘
+, 
+skùkeys
+), 
+READONLY
+, "skipkeys"},
+
+76 {
+NULL
+}
+
+79 
+Py_ssize_t
+
+
+80 
+ascii_esˇ≥_ch¨
+(
+Py_UNICODE
+ 
+c
+, *
+ouçut
+, 
+Py_ssize_t
+ 
+ch¨s
+);
+
+81 
+PyObje˘
+ *
+
+82 
+ascii_esˇ≥_unicode
+(
+PyObje˘
+ *
+py°r
+);
+
+83 
+PyObje˘
+ *
+
+84 
+ascii_esˇ≥_°r
+(
+PyObje˘
+ *
+py°r
+);
+
+85 
+PyObje˘
+ *
+
+86 
+py_ícode_ba£°rög_ascii
+(
+PyObje˘
+* 
+£lf
+ 
+UNUSED
+, PyObje˘ *
+py°r
+);
+
+87 
+öô_•ìdups
+();
+
+88 
+PyObje˘
+ *
+
+89 
+sˇn_⁄˚_°r
+(
+PySˇ¬îObje˘
+ *
+s
+, 
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+idx
+, Py_ssize_à*
+√xt_idx_±r
+);
+
+90 
+PyObje˘
+ *
+
+91 
+sˇn_⁄˚_unicode
+(
+PySˇ¬îObje˘
+ *
+s
+, 
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+idx
+, Py_ssize_à*
+√xt_idx_±r
+);
+
+92 
+PyObje˘
+ *
+
+93 
+_buûd_rvÆ_ödex_tu∂e
+(
+PyObje˘
+ *
+rvÆ
+, 
+Py_ssize_t
+ 
+idx
+);
+
+94 
+PyObje˘
+ *
+
+95 
+sˇ¬î_√w
+(
+PyTy≥Obje˘
+ *
+ty≥
+, 
+PyObje˘
+ *
+¨gs
+, PyObje˘ *
+kwds
+);
+
+97 
+sˇ¬î_öô
+(
+PyObje˘
+ *
+£lf
+, PyObje˘ *
+¨gs
+, PyObje˘ *
+kwds
+);
+
+99 
+sˇ¬î_dóŒoc
+(
+PyObje˘
+ *
+£lf
+);
+
+101 
+sˇ¬î_˛ór
+(
+PyObje˘
+ *
+£lf
+);
+
+102 
+PyObje˘
+ *
+
+103 
+ícodî_√w
+(
+PyTy≥Obje˘
+ *
+ty≥
+, 
+PyObje˘
+ *
+¨gs
+, PyObje˘ *
+kwds
+);
+
+105 
+ícodî_öô
+(
+PyObje˘
+ *
+£lf
+, PyObje˘ *
+¨gs
+, PyObje˘ *
+kwds
+);
+
+107 
+ícodî_dóŒoc
+(
+PyObje˘
+ *
+£lf
+);
+
+109 
+ícodî_˛ór
+(
+PyObje˘
+ *
+£lf
+);
+
+111 
+ícodî_li°ícode_li°
+(
+PyEncodîObje˘
+ *
+s
+, 
+PyObje˘
+ *
+rvÆ
+, PyObje˘ *
+£q
+, 
+Py_ssize_t
+ 
+ödít_Àvñ
+);
+
+113 
+ícodî_li°ícode_obj
+(
+PyEncodîObje˘
+ *
+s
+, 
+PyObje˘
+ *
+rvÆ
+, PyObje˘ *
+obj
+, 
+Py_ssize_t
+ 
+ödít_Àvñ
+);
+
+115 
+ícodî_li°ícode_di˘
+(
+PyEncodîObje˘
+ *
+s
+, 
+PyObje˘
+ *
+rvÆ
+, PyObje˘ *
+d˘
+, 
+Py_ssize_t
+ 
+ödít_Àvñ
+);
+
+116 
+PyObje˘
+ *
+
+117 
+_ícoded_c⁄°
+(
+PyObje˘
+ *const);
+
+119 
+øi£_îrmsg
+(*
+msg
+, 
+PyObje˘
+ *
+s
+, 
+Py_ssize_t
+ 
+íd
+);
+
+120 
+PyObje˘
+ *
+
+121 
+ícodî_ícode_°rög
+(
+PyEncodîObje˘
+ *
+s
+, 
+PyObje˘
+ *
+obj
+);
+
+123 
+_c⁄vîtPyI¡_AsSsize_t
+(
+PyObje˘
+ *
+o
+, 
+Py_ssize_t
+ *
+size_±r
+);
+
+124 
+PyObje˘
+ *
+
+125 
+_c⁄vîtPyI¡_FromSsize_t
+(
+Py_ssize_t
+ *
+size_±r
+);
+
+126 
+PyObje˘
+ *
+
+127 
+ícodî_ícode_Êﬂt
+(
+PyEncodîObje˘
+ *
+s
+, 
+PyObje˘
+ *
+obj
+);
+
+129 
+	#S_CHAR
+(
+c
+Ë(¯>' ' && c <'~' && c !'\\' && c !'"')
+
+	)
+
+130 
+	#IS_WHITESPACE
+(
+c
+Ë(((cË=' 'Ë|| ((cË='\t'Ë|| ((cË='\n'Ë|| ((cË='\r'))
+
+	)
+
+132 
+	#MIN_EXPANSION
+ 6
+
+	)
+
+133 #ifde‡
+Py_UNICODE_WIDE
+
+
+134 
+	#MAX_EXPANSION
+ (2 * 
+MIN_EXPANSION
+)
+
+	)
+
+136 
+	#MAX_EXPANSION
+ 
+MIN_EXPANSION
+
+
+	)
+
+140 
+	$_c⁄vîtPyI¡_AsSsize_t
+(
+PyObje˘
+ *
+o
+, 
+Py_ssize_t
+ *
+size_±r
+)
+
+143 *
+size_±r
+ = 
+	`PyI¡_AsSsize_t
+(
+o
+);
+
+144 i‡(*
+size_±r
+ =-1 && 
+	`PyEº_Occuºed
+());
+
+147 
+	}
+}
+
+149 
+PyObje˘
+ *
+
+150 
+	$_c⁄vîtPyI¡_FromSsize_t
+(
+Py_ssize_t
+ *
+size_±r
+)
+
+153  
+	`PyI¡_FromSsize_t
+(*
+size_±r
+);
+
+154 
+	}
+}
+
+156 
+Py_ssize_t
+
+
+157 
+	$ascii_esˇ≥_ch¨
+(
+Py_UNICODE
+ 
+c
+, *
+ouçut
+, 
+Py_ssize_t
+ 
+ch¨s
+)
+
+162 
+ouçut
+[
+ch¨s
+++] = '\\';
+
+163 
+c
+) {
+
+164 '\\': 
+ouçut
+[
+ch¨s
+++] = ()
+c
+; ;
+
+165 '"': 
+ouçut
+[
+ch¨s
+++] = ()
+c
+; ;
+
+166 '\b': 
+ouçut
+[
+ch¨s
+++] = 'b'; ;
+
+167 '\f': 
+ouçut
+[
+ch¨s
+++] = 'f'; ;
+
+168 '\n': 
+ouçut
+[
+ch¨s
+++] = 'n'; ;
+
+169 '\r': 
+ouçut
+[
+ch¨s
+++] = 'r'; ;
+
+170 '\t': 
+ouçut
+[
+ch¨s
+++] = 't'; ;
+
+172 #ifde‡
+Py_UNICODE_WIDE
+
+
+173 i‡(
+c
+ >= 0x10000) {
+
+175 
+Py_UNICODE
+ 
+v
+ = 
+c
+ - 0x10000;
+
+176 
+c
+ = 0xd800 | ((
+v
+ >> 10) & 0x3ff);
+
+177 
+ouçut
+[
+ch¨s
+++] = 'u';
+
+178 
+ouçut
+[
+ch¨s
+++] = "0123456789abcdef"[(
+c
+ >> 12) & 0xf];
+
+179 
+ouçut
+[
+ch¨s
+++] = "0123456789abcdef"[(
+c
+ >> 8) & 0xf];
+
+180 
+ouçut
+[
+ch¨s
+++] = "0123456789abcdef"[(
+c
+ >> 4) & 0xf];
+
+181 
+ouçut
+[
+ch¨s
+++] = "0123456789abcdef"[(
+c
+ ) & 0xf];
+
+182 
+c
+ = 0xdc00 | (
+v
+ & 0x3ff);
+
+183 
+ouçut
+[
+ch¨s
+++] = '\\';
+
+186 
+ouçut
+[
+ch¨s
+++] = 'u';
+
+187 
+ouçut
+[
+ch¨s
+++] = "0123456789abcdef"[(
+c
+ >> 12) & 0xf];
+
+188 
+ouçut
+[
+ch¨s
+++] = "0123456789abcdef"[(
+c
+ >> 8) & 0xf];
+
+189 
+ouçut
+[
+ch¨s
+++] = "0123456789abcdef"[(
+c
+ >> 4) & 0xf];
+
+190 
+ouçut
+[
+ch¨s
+++] = "0123456789abcdef"[(
+c
+ ) & 0xf];
+
+192  
+ch¨s
+;
+
+193 
+	}
+}
+
+195 
+PyObje˘
+ *
+
+196 
+	$ascii_esˇ≥_unicode
+(
+PyObje˘
+ *
+py°r
+)
+
+199 
+Py_ssize_t
+ 
+i
+;
+
+200 
+Py_ssize_t
+ 
+öput_ch¨s
+;
+
+201 
+Py_ssize_t
+ 
+ouçut_size
+;
+
+202 
+Py_ssize_t
+ 
+max_ouçut_size
+;
+
+203 
+Py_ssize_t
+ 
+ch¨s
+;
+
+204 
+PyObje˘
+ *
+rvÆ
+;
+
+205 *
+ouçut
+;
+
+206 
+Py_UNICODE
+ *
+öput_unicode
+;
+
+208 
+öput_ch¨s
+ = 
+	`PyUnicode_GET_SIZE
+(
+py°r
+);
+
+209 
+öput_unicode
+ = 
+	`PyUnicode_AS_UNICODE
+(
+py°r
+);
+
+212 
+ouçut_size
+ = 2 + (
+MIN_EXPANSION
+ * 4Ë+ 
+öput_ch¨s
+;
+
+213 
+max_ouçut_size
+ = 2 + (
+öput_ch¨s
+ * 
+MAX_EXPANSION
+);
+
+214 
+rvÆ
+ = 
+	`PySåög_FromSåögAndSize
+(
+NULL
+, 
+ouçut_size
+);
+
+215 i‡(
+rvÆ
+ =
+NULL
+) {
+
+216  
+NULL
+;
+
+218 
+ouçut
+ = 
+	`PySåög_AS_STRING
+(
+rvÆ
+);
+
+219 
+ch¨s
+ = 0;
+
+220 
+ouçut
+[
+ch¨s
+++] = '"';
+
+221 
+i
+ = 0; i < 
+öput_ch¨s
+; i++) {
+
+222 
+Py_UNICODE
+ 
+c
+ = 
+öput_unicode
+[
+i
+];
+
+223 i‡(
+	`S_CHAR
+(
+c
+)) {
+
+224 
+ouçut
+[
+ch¨s
+++] = ()
+c
+;
+
+227 
+ch¨s
+ = 
+	`ascii_esˇ≥_ch¨
+(
+c
+, 
+ouçut
+, chars);
+
+229 i‡(
+ouçut_size
+ - 
+ch¨s
+ < (1 + 
+MAX_EXPANSION
+)) {
+
+231 
+Py_ssize_t
+ 
+√w_ouçut_size
+ = 
+ouçut_size
+ * 2;
+
+233 i‡(
+√w_ouçut_size
+ > 
+max_ouçut_size
+) {
+
+234 
+√w_ouçut_size
+ = 
+max_ouçut_size
+;
+
+237 i‡(
+√w_ouçut_size
+ !
+ouçut_size
+) {
+
+238 
+ouçut_size
+ = 
+√w_ouçut_size
+;
+
+239 i‡(
+	`_PySåög_Resize
+(&
+rvÆ
+, 
+ouçut_size
+) == -1) {
+
+240  
+NULL
+;
+
+242 
+ouçut
+ = 
+	`PySåög_AS_STRING
+(
+rvÆ
+);
+
+246 
+ouçut
+[
+ch¨s
+++] = '"';
+
+247 i‡(
+	`_PySåög_Resize
+(&
+rvÆ
+, 
+ch¨s
+) == -1) {
+
+248  
+NULL
+;
+
+250  
+rvÆ
+;
+
+251 
+	}
+}
+
+253 
+PyObje˘
+ *
+
+254 
+	$ascii_esˇ≥_°r
+(
+PyObje˘
+ *
+py°r
+)
+
+257 
+Py_ssize_t
+ 
+i
+;
+
+258 
+Py_ssize_t
+ 
+öput_ch¨s
+;
+
+259 
+Py_ssize_t
+ 
+ouçut_size
+;
+
+260 
+Py_ssize_t
+ 
+ch¨s
+;
+
+261 
+PyObje˘
+ *
+rvÆ
+;
+
+262 *
+ouçut
+;
+
+263 *
+öput_°r
+;
+
+265 
+öput_ch¨s
+ = 
+	`PySåög_GET_SIZE
+(
+py°r
+);
+
+266 
+öput_°r
+ = 
+	`PySåög_AS_STRING
+(
+py°r
+);
+
+269 
+i
+ = 0; i < 
+öput_ch¨s
+; i++) {
+
+270 
+Py_UNICODE
+ 
+c
+ = (Py_UNICODE)()
+öput_°r
+[
+i
+];
+
+271 i‡(!
+	`S_CHAR
+(
+c
+)) {
+
+273 
+Py_ssize_t
+ 
+j
+;
+
+274 
+j
+ = 
+i
+; j < 
+öput_ch¨s
+; j++) {
+
+275 
+c
+ = (
+Py_UNICODE
+)()
+öput_°r
+[
+j
+];
+
+276 i‡(
+c
+ > 0x7f) {
+
+278 
+PyObje˘
+ *
+uni
+;
+
+279 
+uni
+ = 
+	`PyUnicode_DecodeUTF8
+(
+öput_°r
+, 
+öput_ch¨s
+, "strict");
+
+280 i‡(
+uni
+ =
+NULL
+) {
+
+281  
+NULL
+;
+
+283 
+rvÆ
+ = 
+	`ascii_esˇ≥_unicode
+(
+uni
+);
+
+284 
+	`Py_DECREF
+(
+uni
+);
+
+285  
+rvÆ
+;
+
+292 i‡(
+i
+ =
+öput_ch¨s
+) {
+
+294 
+ouçut_size
+ = 2 + 
+öput_ch¨s
+;
+
+298 
+ouçut_size
+ = 2 + (
+MIN_EXPANSION
+ * 4Ë+ 
+öput_ch¨s
+;
+
+300 
+rvÆ
+ = 
+	`PySåög_FromSåögAndSize
+(
+NULL
+, 
+ouçut_size
+);
+
+301 i‡(
+rvÆ
+ =
+NULL
+) {
+
+302  
+NULL
+;
+
+304 
+ouçut
+ = 
+	`PySåög_AS_STRING
+(
+rvÆ
+);
+
+305 
+ouçut
+[0] = '"';
+
+308 
+ch¨s
+ = 
+i
+ + 1;
+
+309 
+	`mem˝y
+(&
+ouçut
+[1], 
+öput_°r
+, 
+i
+);
+
+311 ; 
+i
+ < 
+öput_ch¨s
+; i++) {
+
+312 
+Py_UNICODE
+ 
+c
+ = (Py_UNICODE)()
+öput_°r
+[
+i
+];
+
+313 i‡(
+	`S_CHAR
+(
+c
+)) {
+
+314 
+ouçut
+[
+ch¨s
+++] = ()
+c
+;
+
+317 
+ch¨s
+ = 
+	`ascii_esˇ≥_ch¨
+(
+c
+, 
+ouçut
+, chars);
+
+320 i‡(
+ouçut_size
+ - 
+ch¨s
+ < (1 + 
+MIN_EXPANSION
+)) {
+
+322 
+ouçut_size
+ *= 2;
+
+323 i‡(
+ouçut_size
+ > 2 + (
+öput_ch¨s
+ * 
+MIN_EXPANSION
+)) {
+
+324 
+ouçut_size
+ = 2 + (
+öput_ch¨s
+ * 
+MIN_EXPANSION
+);
+
+326 i‡(
+	`_PySåög_Resize
+(&
+rvÆ
+, 
+ouçut_size
+) == -1) {
+
+327  
+NULL
+;
+
+329 
+ouçut
+ = 
+	`PySåög_AS_STRING
+(
+rvÆ
+);
+
+332 
+ouçut
+[
+ch¨s
+++] = '"';
+
+333 i‡(
+	`_PySåög_Resize
+(&
+rvÆ
+, 
+ch¨s
+) == -1) {
+
+334  
+NULL
+;
+
+336  
+rvÆ
+;
+
+337 
+	}
+}
+
+340 
+	$øi£_îrmsg
+(*
+msg
+, 
+PyObje˘
+ *
+s
+, 
+Py_ssize_t
+ 
+íd
+)
+
+344 
+PyObje˘
+ *
+îrmsg_‚
+ = 
+NULL
+;
+
+345 
+PyObje˘
+ *
+pymsg
+;
+
+346 i‡(
+îrmsg_‚
+ =
+NULL
+) {
+
+347 
+PyObje˘
+ *
+decodî
+ = 
+	`PyImp‹t_Imp‹tModuÀ
+("simplejson.decoder");
+
+348 i‡(
+decodî
+ =
+NULL
+)
+
+350 
+îrmsg_‚
+ = 
+	`PyObje˘_GëAârSåög
+(
+decodî
+, "errmsg");
+
+351 
+	`Py_DECREF
+(
+decodî
+);
+
+352 i‡(
+îrmsg_‚
+ =
+NULL
+)
+
+355 
+pymsg
+ = 
+	`PyObje˘_CÆlFun˘i⁄
+(
+îrmsg_‚
+, "(zOO&)", 
+msg
+, 
+s
+, 
+_c⁄vîtPyI¡_FromSsize_t
+, &
+íd
+);
+
+356 i‡(
+pymsg
+) {
+
+357 
+	`PyEº_SëObje˘
+(
+PyExc_VÆueEº‹
+, 
+pymsg
+);
+
+358 
+	`Py_DECREF
+(
+pymsg
+);
+
+360 
+	}
+}
+
+362 
+PyObje˘
+ *
+
+363 
+	$joö_li°_unicode
+(
+PyObje˘
+ *
+l°
+)
+
+366 
+PyObje˘
+ *
+joö‚
+ = 
+NULL
+;
+
+367 i‡(
+joö‚
+ =
+NULL
+) {
+
+368 
+PyObje˘
+ *
+u°r
+ = 
+	`PyUnicode_FromUnicode
+(
+NULL
+, 0);
+
+369 i‡(
+u°r
+ =
+NULL
+)
+
+370  
+NULL
+;
+
+372 
+joö‚
+ = 
+	`PyObje˘_GëAârSåög
+(
+u°r
+, "join");
+
+373 
+	`Py_DECREF
+(
+u°r
+);
+
+374 i‡(
+joö‚
+ =
+NULL
+)
+
+375  
+NULL
+;
+
+377  
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+joö‚
+, 
+l°
+, 
+NULL
+);
+
+378 
+	}
+}
+
+380 
+PyObje˘
+ *
+
+381 
+	$joö_li°_°rög
+(
+PyObje˘
+ *
+l°
+)
+
+384 
+PyObje˘
+ *
+joö‚
+ = 
+NULL
+;
+
+385 i‡(
+joö‚
+ =
+NULL
+) {
+
+386 
+PyObje˘
+ *
+u°r
+ = 
+	`PySåög_FromSåögAndSize
+(
+NULL
+, 0);
+
+387 i‡(
+u°r
+ =
+NULL
+)
+
+388  
+NULL
+;
+
+390 
+joö‚
+ = 
+	`PyObje˘_GëAârSåög
+(
+u°r
+, "join");
+
+391 
+	`Py_DECREF
+(
+u°r
+);
+
+392 i‡(
+joö‚
+ =
+NULL
+)
+
+393  
+NULL
+;
+
+395  
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+joö‚
+, 
+l°
+, 
+NULL
+);
+
+396 
+	}
+}
+
+398 
+PyObje˘
+ *
+
+399 
+	$_buûd_rvÆ_ödex_tu∂e
+(
+PyObje˘
+ *
+rvÆ
+, 
+Py_ssize_t
+ 
+idx
+) {
+
+401 
+PyObje˘
+ *
+çl
+;
+
+402 
+PyObje˘
+ *
+pyidx
+;
+
+406 i‡(
+rvÆ
+ =
+NULL
+) {
+
+407  
+NULL
+;
+
+409 
+pyidx
+ = 
+	`PyI¡_FromSsize_t
+(
+idx
+);
+
+410 i‡(
+pyidx
+ =
+NULL
+) {
+
+411 
+	`Py_DECREF
+(
+rvÆ
+);
+
+412  
+NULL
+;
+
+414 
+çl
+ = 
+	`PyTu∂e_New
+(2);
+
+415 i‡(
+çl
+ =
+NULL
+) {
+
+416 
+	`Py_DECREF
+(
+pyidx
+);
+
+417 
+	`Py_DECREF
+(
+rvÆ
+);
+
+418  
+NULL
+;
+
+420 
+	`PyTu∂e_SET_ITEM
+(
+çl
+, 0, 
+rvÆ
+);
+
+421 
+	`PyTu∂e_SET_ITEM
+(
+çl
+, 1, 
+pyidx
+);
+
+422  
+çl
+;
+
+423 
+	}
+}
+
+425 
+PyObje˘
+ *
+
+426 
+	$sˇn°rög_°r
+(
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+íd
+, *
+ícodög
+, 
+°ri˘
+, Py_ssize_à*
+√xt_íd_±r
+)
+
+437 
+PyObje˘
+ *
+rvÆ
+;
+
+438 
+Py_ssize_t
+ 
+Àn
+ = 
+	`PySåög_GET_SIZE
+(
+py°r
+);
+
+439 
+Py_ssize_t
+ 
+begö
+ = 
+íd
+ - 1;
+
+440 
+Py_ssize_t
+ 
+√xt
+ = 
+begö
+;
+
+441 
+has_unicode
+ = 0;
+
+442 *
+buf
+ = 
+	`PySåög_AS_STRING
+(
+py°r
+);
+
+443 
+PyObje˘
+ *
+chunks
+ = 
+	`PyLi°_New
+(0);
+
+444 i‡(
+chunks
+ =
+NULL
+) {
+
+445 
+baû
+;
+
+447 i‡(
+íd
+ < 0 || 
+Àn
+ <=Énd) {
+
+448 
+	`PyEº_SëSåög
+(
+PyExc_VÆueEº‹
+, "end is out of bounds");
+
+449 
+baû
+;
+
+453 
+Py_UNICODE
+ 
+c
+ = 0;
+
+454 
+PyObje˘
+ *
+chunk
+ = 
+NULL
+;
+
+455 
+√xt
+ = 
+íd
+;Çexà< 
+Àn
+;Çext++) {
+
+456 
+c
+ = ()
+buf
+[
+√xt
+];
+
+457 i‡(
+c
+ == '"' || c == '\\') {
+
+460 i‡(
+°ri˘
+ && 
+c
+ <= 0x1f) {
+
+461 
+	`øi£_îrmsg
+("InvÆid c⁄åﬁ ch¨a˘îát", 
+py°r
+, 
+√xt
+);
+
+462 
+baû
+;
+
+464 i‡(
+c
+ > 0x7f) {
+
+465 
+has_unicode
+ = 1;
+
+468 i‡(!(
+c
+ == '"' || c == '\\')) {
+
+469 
+	`øi£_îrmsg
+("U¡îmö©ed såög sèπögát", 
+py°r
+, 
+begö
+);
+
+470 
+baû
+;
+
+473 i‡(
+√xt
+ !
+íd
+) {
+
+474 
+PyObje˘
+ *
+°rchunk
+ = 
+	`PySåög_FromSåögAndSize
+(&
+buf
+[
+íd
+], 
+√xt
+ -Énd);
+
+475 i‡(
+°rchunk
+ =
+NULL
+) {
+
+476 
+baû
+;
+
+478 i‡(
+has_unicode
+) {
+
+479 
+chunk
+ = 
+	`PyUnicode_FromEncodedObje˘
+(
+°rchunk
+, 
+ícodög
+, 
+NULL
+);
+
+480 
+	`Py_DECREF
+(
+°rchunk
+);
+
+481 i‡(
+chunk
+ =
+NULL
+) {
+
+482 
+baû
+;
+
+486 
+chunk
+ = 
+°rchunk
+;
+
+488 i‡(
+	`PyLi°_Aµíd
+(
+chunks
+, 
+chunk
+)) {
+
+489 
+	`Py_DECREF
+(
+chunk
+);
+
+490 
+baû
+;
+
+492 
+	`Py_DECREF
+(
+chunk
+);
+
+494 
+√xt
+++;
+
+495 i‡(
+c
+ == '"') {
+
+496 
+íd
+ = 
+√xt
+;
+
+499 i‡(
+√xt
+ =
+Àn
+) {
+
+500 
+	`øi£_îrmsg
+("U¡îmö©ed såög sèπögát", 
+py°r
+, 
+begö
+);
+
+501 
+baû
+;
+
+503 
+c
+ = 
+buf
+[
+√xt
+];
+
+504 i‡(
+c
+ != 'u') {
+
+506 
+íd
+ = 
+√xt
+ + 1;
+
+507 
+c
+) {
+
+511 'b': 
+c
+ = '\b'; ;
+
+512 'f': 
+c
+ = '\f'; ;
+
+513 'n': 
+c
+ = '\n'; ;
+
+514 'r': 
+c
+ = '\r'; ;
+
+515 't': 
+c
+ = '\t'; ;
+
+516 : 
+c
+ = 0;
+
+518 i‡(
+c
+ == 0) {
+
+519 
+	`øi£_îrmsg
+("InvÆid \\esˇ≥", 
+py°r
+, 
+íd
+ - 2);
+
+520 
+baû
+;
+
+524 
+c
+ = 0;
+
+525 
+√xt
+++;
+
+526 
+íd
+ = 
+√xt
+ + 4;
+
+527 i‡(
+íd
+ >
+Àn
+) {
+
+528 
+	`øi£_îrmsg
+("InvÆid \\uXXXXÉsˇ≥", 
+py°r
+, 
+√xt
+ - 1);
+
+529 
+baû
+;
+
+532 ; 
+√xt
+ < 
+íd
+;Çext++) {
+
+533 
+Py_UNICODE
+ 
+digô
+ = 
+buf
+[
+√xt
+];
+
+534 
+c
+ <<= 4;
+
+535 
+digô
+) {
+
+538 
+c
+ |(
+digô
+ - '0'); ;
+
+541 
+c
+ |(
+digô
+ - 'a' + 10); ;
+
+544 
+c
+ |(
+digô
+ - 'A' + 10); ;
+
+546 
+	`øi£_îrmsg
+("InvÆid \\uXXXXÉsˇ≥", 
+py°r
+, 
+íd
+ - 5);
+
+547 
+baû
+;
+
+550 #ifde‡
+Py_UNICODE_WIDE
+
+
+552 i‡((
+c
+ & 0xfc00) == 0xd800) {
+
+553 
+Py_UNICODE
+ 
+c2
+ = 0;
+
+554 i‡(
+íd
+ + 6 >
+Àn
+) {
+
+555 
+	`øi£_îrmsg
+("U≈aúed high suºog©e", 
+py°r
+, 
+íd
+ - 5);
+
+556 
+baû
+;
+
+558 i‡(
+buf
+[
+√xt
+++] != '\\' || buf[next++] != 'u') {
+
+559 
+	`øi£_îrmsg
+("U≈aúed high suºog©e", 
+py°r
+, 
+íd
+ - 5);
+
+560 
+baû
+;
+
+562 
+íd
+ += 6;
+
+564 ; 
+√xt
+ < 
+íd
+;Çext++) {
+
+565 
+c2
+ <<= 4;
+
+566 
+Py_UNICODE
+ 
+digô
+ = 
+buf
+[
+√xt
+];
+
+567 
+digô
+) {
+
+570 
+c2
+ |(
+digô
+ - '0'); ;
+
+573 
+c2
+ |(
+digô
+ - 'a' + 10); ;
+
+576 
+c2
+ |(
+digô
+ - 'A' + 10); ;
+
+578 
+	`øi£_îrmsg
+("InvÆid \\uXXXXÉsˇ≥", 
+py°r
+, 
+íd
+ - 5);
+
+579 
+baû
+;
+
+582 i‡((
+c2
+ & 0xfc00) != 0xdc00) {
+
+583 
+	`øi£_îrmsg
+("U≈aúed high suºog©e", 
+py°r
+, 
+íd
+ - 5);
+
+584 
+baû
+;
+
+586 
+c
+ = 0x10000 + (((¯- 0xd800Ë<< 10Ë| (
+c2
+ - 0xdc00));
+
+588 i‡((
+c
+ & 0xfc00) == 0xdc00) {
+
+589 
+	`øi£_îrmsg
+("U≈aúedÜow suºog©e", 
+py°r
+, 
+íd
+ - 5);
+
+590 
+baû
+;
+
+594 i‡(
+c
+ > 0x7f) {
+
+595 
+has_unicode
+ = 1;
+
+597 i‡(
+has_unicode
+) {
+
+598 
+chunk
+ = 
+	`PyUnicode_FromUnicode
+(&
+c
+, 1);
+
+599 i‡(
+chunk
+ =
+NULL
+) {
+
+600 
+baû
+;
+
+604 
+c_ch¨
+ = 
+	`Py_CHARMASK
+(
+c
+);
+
+605 
+chunk
+ = 
+	`PySåög_FromSåögAndSize
+(&
+c_ch¨
+, 1);
+
+606 i‡(
+chunk
+ =
+NULL
+) {
+
+607 
+baû
+;
+
+610 i‡(
+	`PyLi°_Aµíd
+(
+chunks
+, 
+chunk
+)) {
+
+611 
+	`Py_DECREF
+(
+chunk
+);
+
+612 
+baû
+;
+
+614 
+	`Py_DECREF
+(
+chunk
+);
+
+617 
+rvÆ
+ = 
+	`joö_li°_°rög
+(
+chunks
+);
+
+618 i‡(
+rvÆ
+ =
+NULL
+) {
+
+619 
+baû
+;
+
+621 
+	`Py_CLEAR
+(
+chunks
+);
+
+622 *
+√xt_íd_±r
+ = 
+íd
+;
+
+623  
+rvÆ
+;
+
+624 
+baû
+:
+
+625 *
+√xt_íd_±r
+ = -1;
+
+626 
+	`Py_XDECREF
+(
+chunks
+);
+
+627  
+NULL
+;
+
+628 
+	}
+}
+
+631 
+PyObje˘
+ *
+
+632 
+	$sˇn°rög_unicode
+(
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+íd
+, 
+°ri˘
+, Py_ssize_à*
+√xt_íd_±r
+)
+
+642 
+PyObje˘
+ *
+rvÆ
+;
+
+643 
+Py_ssize_t
+ 
+Àn
+ = 
+	`PyUnicode_GET_SIZE
+(
+py°r
+);
+
+644 
+Py_ssize_t
+ 
+begö
+ = 
+íd
+ - 1;
+
+645 
+Py_ssize_t
+ 
+√xt
+ = 
+begö
+;
+
+646 c⁄° 
+Py_UNICODE
+ *
+buf
+ = 
+	`PyUnicode_AS_UNICODE
+(
+py°r
+);
+
+647 
+PyObje˘
+ *
+chunks
+ = 
+	`PyLi°_New
+(0);
+
+648 i‡(
+chunks
+ =
+NULL
+) {
+
+649 
+baû
+;
+
+651 i‡(
+íd
+ < 0 || 
+Àn
+ <=Énd) {
+
+652 
+	`PyEº_SëSåög
+(
+PyExc_VÆueEº‹
+, "end is out of bounds");
+
+653 
+baû
+;
+
+657 
+Py_UNICODE
+ 
+c
+ = 0;
+
+658 
+PyObje˘
+ *
+chunk
+ = 
+NULL
+;
+
+659 
+√xt
+ = 
+íd
+;Çexà< 
+Àn
+;Çext++) {
+
+660 
+c
+ = 
+buf
+[
+√xt
+];
+
+661 i‡(
+c
+ == '"' || c == '\\') {
+
+664 i‡(
+°ri˘
+ && 
+c
+ <= 0x1f) {
+
+665 
+	`øi£_îrmsg
+("InvÆid c⁄åﬁ ch¨a˘îát", 
+py°r
+, 
+√xt
+);
+
+666 
+baû
+;
+
+669 i‡(!(
+c
+ == '"' || c == '\\')) {
+
+670 
+	`øi£_îrmsg
+("U¡îmö©ed såög sèπögát", 
+py°r
+, 
+begö
+);
+
+671 
+baû
+;
+
+674 i‡(
+√xt
+ !
+íd
+) {
+
+675 
+chunk
+ = 
+	`PyUnicode_FromUnicode
+(&
+buf
+[
+íd
+], 
+√xt
+ -Énd);
+
+676 i‡(
+chunk
+ =
+NULL
+) {
+
+677 
+baû
+;
+
+679 i‡(
+	`PyLi°_Aµíd
+(
+chunks
+, 
+chunk
+)) {
+
+680 
+	`Py_DECREF
+(
+chunk
+);
+
+681 
+baû
+;
+
+683 
+	`Py_DECREF
+(
+chunk
+);
+
+685 
+√xt
+++;
+
+686 i‡(
+c
+ == '"') {
+
+687 
+íd
+ = 
+√xt
+;
+
+690 i‡(
+√xt
+ =
+Àn
+) {
+
+691 
+	`øi£_îrmsg
+("U¡îmö©ed såög sèπögát", 
+py°r
+, 
+begö
+);
+
+692 
+baû
+;
+
+694 
+c
+ = 
+buf
+[
+√xt
+];
+
+695 i‡(
+c
+ != 'u') {
+
+697 
+íd
+ = 
+√xt
+ + 1;
+
+698 
+c
+) {
+
+702 'b': 
+c
+ = '\b'; ;
+
+703 'f': 
+c
+ = '\f'; ;
+
+704 'n': 
+c
+ = '\n'; ;
+
+705 'r': 
+c
+ = '\r'; ;
+
+706 't': 
+c
+ = '\t'; ;
+
+707 : 
+c
+ = 0;
+
+709 i‡(
+c
+ == 0) {
+
+710 
+	`øi£_îrmsg
+("InvÆid \\esˇ≥", 
+py°r
+, 
+íd
+ - 2);
+
+711 
+baû
+;
+
+715 
+c
+ = 0;
+
+716 
+√xt
+++;
+
+717 
+íd
+ = 
+√xt
+ + 4;
+
+718 i‡(
+íd
+ >
+Àn
+) {
+
+719 
+	`øi£_îrmsg
+("InvÆid \\uXXXXÉsˇ≥", 
+py°r
+, 
+√xt
+ - 1);
+
+720 
+baû
+;
+
+723 ; 
+√xt
+ < 
+íd
+;Çext++) {
+
+724 
+Py_UNICODE
+ 
+digô
+ = 
+buf
+[
+√xt
+];
+
+725 
+c
+ <<= 4;
+
+726 
+digô
+) {
+
+729 
+c
+ |(
+digô
+ - '0'); ;
+
+732 
+c
+ |(
+digô
+ - 'a' + 10); ;
+
+735 
+c
+ |(
+digô
+ - 'A' + 10); ;
+
+737 
+	`øi£_îrmsg
+("InvÆid \\uXXXXÉsˇ≥", 
+py°r
+, 
+íd
+ - 5);
+
+738 
+baû
+;
+
+741 #ifde‡
+Py_UNICODE_WIDE
+
+
+743 i‡((
+c
+ & 0xfc00) == 0xd800) {
+
+744 
+Py_UNICODE
+ 
+c2
+ = 0;
+
+745 i‡(
+íd
+ + 6 >
+Àn
+) {
+
+746 
+	`øi£_îrmsg
+("U≈aúed high suºog©e", 
+py°r
+, 
+íd
+ - 5);
+
+747 
+baû
+;
+
+749 i‡(
+buf
+[
+√xt
+++] != '\\' || buf[next++] != 'u') {
+
+750 
+	`øi£_îrmsg
+("U≈aúed high suºog©e", 
+py°r
+, 
+íd
+ - 5);
+
+751 
+baû
+;
+
+753 
+íd
+ += 6;
+
+755 ; 
+√xt
+ < 
+íd
+;Çext++) {
+
+756 
+c2
+ <<= 4;
+
+757 
+Py_UNICODE
+ 
+digô
+ = 
+buf
+[
+√xt
+];
+
+758 
+digô
+) {
+
+761 
+c2
+ |(
+digô
+ - '0'); ;
+
+764 
+c2
+ |(
+digô
+ - 'a' + 10); ;
+
+767 
+c2
+ |(
+digô
+ - 'A' + 10); ;
+
+769 
+	`øi£_îrmsg
+("InvÆid \\uXXXXÉsˇ≥", 
+py°r
+, 
+íd
+ - 5);
+
+770 
+baû
+;
+
+773 i‡((
+c2
+ & 0xfc00) != 0xdc00) {
+
+774 
+	`øi£_îrmsg
+("U≈aúed high suºog©e", 
+py°r
+, 
+íd
+ - 5);
+
+775 
+baû
+;
+
+777 
+c
+ = 0x10000 + (((¯- 0xd800Ë<< 10Ë| (
+c2
+ - 0xdc00));
+
+779 i‡((
+c
+ & 0xfc00) == 0xdc00) {
+
+780 
+	`øi£_îrmsg
+("U≈aúedÜow suºog©e", 
+py°r
+, 
+íd
+ - 5);
+
+781 
+baû
+;
+
+785 
+chunk
+ = 
+	`PyUnicode_FromUnicode
+(&
+c
+, 1);
+
+786 i‡(
+chunk
+ =
+NULL
+) {
+
+787 
+baû
+;
+
+789 i‡(
+	`PyLi°_Aµíd
+(
+chunks
+, 
+chunk
+)) {
+
+790 
+	`Py_DECREF
+(
+chunk
+);
+
+791 
+baû
+;
+
+793 
+	`Py_DECREF
+(
+chunk
+);
+
+796 
+rvÆ
+ = 
+	`joö_li°_unicode
+(
+chunks
+);
+
+797 i‡(
+rvÆ
+ =
+NULL
+) {
+
+798 
+baû
+;
+
+800 
+	`Py_DECREF
+(
+chunks
+);
+
+801 *
+√xt_íd_±r
+ = 
+íd
+;
+
+802  
+rvÆ
+;
+
+803 
+baû
+:
+
+804 *
+√xt_íd_±r
+ = -1;
+
+805 
+	`Py_XDECREF
+(
+chunks
+);
+
+806  
+NULL
+;
+
+807 
+	}
+}
+
+809 
+PyDoc_STRVAR
+(
+pydoc_sˇn°rög
+,
+
+822 
+PyObje˘
+ *
+
+823 
+	$py_sˇn°rög
+(
+PyObje˘
+* 
+£lf
+ 
+UNUSED
+, PyObje˘ *
+¨gs
+)
+
+825 
+PyObje˘
+ *
+py°r
+;
+
+826 
+PyObje˘
+ *
+rvÆ
+;
+
+827 
+Py_ssize_t
+ 
+íd
+;
+
+828 
+Py_ssize_t
+ 
+√xt_íd
+ = -1;
+
+829 *
+ícodög
+ = 
+NULL
+;
+
+830 
+°ri˘
+ = 1;
+
+831 i‡(!
+	`PyArg_P¨£Tu∂e
+(
+¨gs
+, "OO&|zi:sˇn°rög", &
+py°r
+, 
+_c⁄vîtPyI¡_AsSsize_t
+, &
+íd
+, &
+ícodög
+, &
+°ri˘
+)) {
+
+832  
+NULL
+;
+
+834 i‡(
+ícodög
+ =
+NULL
+) {
+
+835 
+ícodög
+ = 
+DEFAULT_ENCODING
+;
+
+837 i‡(
+	`PySåög_Check
+(
+py°r
+)) {
+
+838 
+rvÆ
+ = 
+	`sˇn°rög_°r
+(
+py°r
+, 
+íd
+, 
+ícodög
+, 
+°ri˘
+, &
+√xt_íd
+);
+
+840 i‡(
+	`PyUnicode_Check
+(
+py°r
+)) {
+
+841 
+rvÆ
+ = 
+	`sˇn°rög_unicode
+(
+py°r
+, 
+íd
+, 
+°ri˘
+, &
+√xt_íd
+);
+
+844 
+	`PyEº_F‹m©
+(
+PyExc_Ty≥Eº‹
+,
+
+846 
+	`Py_TYPE
+(
+py°r
+)->
+ç_«me
+);
+
+847  
+NULL
+;
+
+849  
+	`_buûd_rvÆ_ödex_tu∂e
+(
+rvÆ
+, 
+√xt_íd
+);
+
+850 
+	}
+}
+
+852 
+PyDoc_STRVAR
+(
+pydoc_ícode_ba£°rög_ascii
+,
+
+858 
+PyObje˘
+ *
+
+859 
+	$py_ícode_ba£°rög_ascii
+(
+PyObje˘
+* 
+£lf
+ 
+UNUSED
+, PyObje˘ *
+py°r
+)
+
+863 i‡(
+	`PySåög_Check
+(
+py°r
+)) {
+
+864  
+	`ascii_esˇ≥_°r
+(
+py°r
+);
+
+866 i‡(
+	`PyUnicode_Check
+(
+py°r
+)) {
+
+867  
+	`ascii_esˇ≥_unicode
+(
+py°r
+);
+
+870 
+	`PyEº_F‹m©
+(
+PyExc_Ty≥Eº‹
+,
+
+872 
+	`Py_TYPE
+(
+py°r
+)->
+ç_«me
+);
+
+873  
+NULL
+;
+
+875 
+	}
+}
+
+878 
+	$sˇ¬î_dóŒoc
+(
+PyObje˘
+ *
+£lf
+)
+
+881 
+	`sˇ¬î_˛ór
+(
+£lf
+);
+
+882 
+	`Py_TYPE
+(
+£lf
+)->
+	`ç_‰ì
+(self);
+
+883 
+	}
+}
+
+886 
+	$sˇ¬î_åavî£
+(
+PyObje˘
+ *
+£lf
+, 
+visô¥oc
+ 
+visô
+, *
+¨g
+)
+
+888 
+PySˇ¬îObje˘
+ *
+s
+;
+
+889 
+	`as£π
+(
+	`PySˇ¬î_Check
+(
+£lf
+));
+
+890 
+s
+ = (
+PySˇ¬îObje˘
+ *)
+£lf
+;
+
+891 
+	`Py_VISIT
+(
+s
+->
+ícodög
+);
+
+892 
+	`Py_VISIT
+(
+s
+->
+°ri˘
+);
+
+893 
+	`Py_VISIT
+(
+s
+->
+obje˘_hook
+);
+
+894 
+	`Py_VISIT
+(
+s
+->
+∑r£_Êﬂt
+);
+
+895 
+	`Py_VISIT
+(
+s
+->
+∑r£_öt
+);
+
+896 
+	`Py_VISIT
+(
+s
+->
+∑r£_c⁄°™t
+);
+
+898 
+	}
+}
+
+901 
+	$sˇ¬î_˛ór
+(
+PyObje˘
+ *
+£lf
+)
+
+903 
+PySˇ¬îObje˘
+ *
+s
+;
+
+904 
+	`as£π
+(
+	`PySˇ¬î_Check
+(
+£lf
+));
+
+905 
+s
+ = (
+PySˇ¬îObje˘
+ *)
+£lf
+;
+
+906 
+	`Py_CLEAR
+(
+s
+->
+ícodög
+);
+
+907 
+	`Py_CLEAR
+(
+s
+->
+°ri˘
+);
+
+908 
+	`Py_CLEAR
+(
+s
+->
+obje˘_hook
+);
+
+909 
+	`Py_CLEAR
+(
+s
+->
+∑r£_Êﬂt
+);
+
+910 
+	`Py_CLEAR
+(
+s
+->
+∑r£_öt
+);
+
+911 
+	`Py_CLEAR
+(
+s
+->
+∑r£_c⁄°™t
+);
+
+913 
+	}
+}
+
+915 
+PyObje˘
+ *
+
+916 
+	$_∑r£_obje˘_°r
+(
+PySˇ¬îObje˘
+ *
+s
+, 
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+idx
+, Py_ssize_à*
+√xt_idx_±r
+) {
+
+924 *
+°r
+ = 
+	`PySåög_AS_STRING
+(
+py°r
+);
+
+925 
+Py_ssize_t
+ 
+íd_idx
+ = 
+	`PySåög_GET_SIZE
+(
+py°r
+) - 1;
+
+926 
+PyObje˘
+ *
+rvÆ
+ = 
+	`PyDi˘_New
+();
+
+927 
+PyObje˘
+ *
+key
+ = 
+NULL
+;
+
+928 
+PyObje˘
+ *
+vÆ
+ = 
+NULL
+;
+
+929 *
+ícodög
+ = 
+	`PySåög_AS_STRING
+(
+s
+->encoding);
+
+930 
+°ri˘
+ = 
+	`PyObje˘_IsTrue
+(
+s
+->strict);
+
+931 
+Py_ssize_t
+ 
+√xt_idx
+;
+
+932 i‡(
+rvÆ
+ =
+NULL
+)
+
+933  
+NULL
+;
+
+936 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+939 i‡(
+idx
+ <
+íd_idx
+ && 
+°r
+[idx] != '}') {
+
+940 
+idx
+ <
+íd_idx
+) {
+
+942 i‡(
+°r
+[
+idx
+] != '"') {
+
+943 
+	`øi£_îrmsg
+("Ex≥˘ögÖr›îtyÇame", 
+py°r
+, 
+idx
+);
+
+944 
+baû
+;
+
+946 
+key
+ = 
+	`sˇn°rög_°r
+(
+py°r
+, 
+idx
+ + 1, 
+ícodög
+, 
+°ri˘
+, &
+√xt_idx
+);
+
+947 i‡(
+key
+ =
+NULL
+)
+
+948 
+baû
+;
+
+949 
+idx
+ = 
+√xt_idx
+;
+
+952 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+953 i‡(
+idx
+ > 
+íd_idx
+ || 
+°r
+[idx] != ':') {
+
+954 
+	`øi£_îrmsg
+("Ex≥˘ög : dñimôî", 
+py°r
+, 
+idx
+);
+
+955 
+baû
+;
+
+957 
+idx
+++;
+
+958 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+961 
+vÆ
+ = 
+	`sˇn_⁄˚_°r
+(
+s
+, 
+py°r
+, 
+idx
+, &
+√xt_idx
+);
+
+962 i‡(
+vÆ
+ =
+NULL
+)
+
+963 
+baû
+;
+
+965 i‡(
+	`PyDi˘_SëIãm
+(
+rvÆ
+, 
+key
+, 
+vÆ
+) == -1)
+
+966 
+baû
+;
+
+968 
+	`Py_CLEAR
+(
+key
+);
+
+969 
+	`Py_CLEAR
+(
+vÆ
+);
+
+970 
+idx
+ = 
+√xt_idx
+;
+
+973 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+976 i‡(
+idx
+ > 
+íd_idx
+) ;
+
+977 i‡(
+°r
+[
+idx
+] == '}') {
+
+980 i‡(
+°r
+[
+idx
+] != ',') {
+
+981 
+	`øi£_îrmsg
+("Ex≥˘ög , dñimôî", 
+py°r
+, 
+idx
+);
+
+982 
+baû
+;
+
+984 
+idx
+++;
+
+987 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+991 i‡(
+idx
+ > 
+íd_idx
+ || 
+°r
+[idx] != '}') {
+
+992 
+	`øi£_îrmsg
+("Ex≥˘ög obje˘", 
+py°r
+, 
+íd_idx
+);
+
+993 
+baû
+;
+
+996 i‡(
+s
+->
+obje˘_hook
+ !
+Py_N⁄e
+) {
+
+997 
+vÆ
+ = 
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+s
+->
+obje˘_hook
+, 
+rvÆ
+, 
+NULL
+);
+
+998 i‡(
+vÆ
+ =
+NULL
+)
+
+999 
+baû
+;
+
+1000 
+	`Py_DECREF
+(
+rvÆ
+);
+
+1001 
+rvÆ
+ = 
+vÆ
+;
+
+1002 
+vÆ
+ = 
+NULL
+;
+
+1004 *
+√xt_idx_±r
+ = 
+idx
+ + 1;
+
+1005  
+rvÆ
+;
+
+1006 
+baû
+:
+
+1007 
+	`Py_XDECREF
+(
+key
+);
+
+1008 
+	`Py_XDECREF
+(
+vÆ
+);
+
+1009 
+	`Py_DECREF
+(
+rvÆ
+);
+
+1010  
+NULL
+;
+
+1011 
+	}
+}
+
+1013 
+PyObje˘
+ *
+
+1014 
+	$_∑r£_obje˘_unicode
+(
+PySˇ¬îObje˘
+ *
+s
+, 
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+idx
+, Py_ssize_à*
+√xt_idx_±r
+) {
+
+1022 
+Py_UNICODE
+ *
+°r
+ = 
+	`PyUnicode_AS_UNICODE
+(
+py°r
+);
+
+1023 
+Py_ssize_t
+ 
+íd_idx
+ = 
+	`PyUnicode_GET_SIZE
+(
+py°r
+) - 1;
+
+1024 
+PyObje˘
+ *
+vÆ
+ = 
+NULL
+;
+
+1025 
+PyObje˘
+ *
+rvÆ
+ = 
+	`PyDi˘_New
+();
+
+1026 
+PyObje˘
+ *
+key
+ = 
+NULL
+;
+
+1027 
+°ri˘
+ = 
+	`PyObje˘_IsTrue
+(
+s
+->strict);
+
+1028 
+Py_ssize_t
+ 
+√xt_idx
+;
+
+1029 i‡(
+rvÆ
+ =
+NULL
+)
+
+1030  
+NULL
+;
+
+1033 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1036 i‡(
+idx
+ <
+íd_idx
+ && 
+°r
+[idx] != '}') {
+
+1037 
+idx
+ <
+íd_idx
+) {
+
+1039 i‡(
+°r
+[
+idx
+] != '"') {
+
+1040 
+	`øi£_îrmsg
+("Ex≥˘ögÖr›îtyÇame", 
+py°r
+, 
+idx
+);
+
+1041 
+baû
+;
+
+1043 
+key
+ = 
+	`sˇn°rög_unicode
+(
+py°r
+, 
+idx
+ + 1, 
+°ri˘
+, &
+√xt_idx
+);
+
+1044 i‡(
+key
+ =
+NULL
+)
+
+1045 
+baû
+;
+
+1046 
+idx
+ = 
+√xt_idx
+;
+
+1049 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1050 i‡(
+idx
+ > 
+íd_idx
+ || 
+°r
+[idx] != ':') {
+
+1051 
+	`øi£_îrmsg
+("Ex≥˘ög : dñimôî", 
+py°r
+, 
+idx
+);
+
+1052 
+baû
+;
+
+1054 
+idx
+++;
+
+1055 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1058 
+vÆ
+ = 
+	`sˇn_⁄˚_unicode
+(
+s
+, 
+py°r
+, 
+idx
+, &
+√xt_idx
+);
+
+1059 i‡(
+vÆ
+ =
+NULL
+)
+
+1060 
+baû
+;
+
+1062 i‡(
+	`PyDi˘_SëIãm
+(
+rvÆ
+, 
+key
+, 
+vÆ
+) == -1)
+
+1063 
+baû
+;
+
+1065 
+	`Py_CLEAR
+(
+key
+);
+
+1066 
+	`Py_CLEAR
+(
+vÆ
+);
+
+1067 
+idx
+ = 
+√xt_idx
+;
+
+1070 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1073 i‡(
+idx
+ > 
+íd_idx
+) ;
+
+1074 i‡(
+°r
+[
+idx
+] == '}') {
+
+1077 i‡(
+°r
+[
+idx
+] != ',') {
+
+1078 
+	`øi£_îrmsg
+("Ex≥˘ög , dñimôî", 
+py°r
+, 
+idx
+);
+
+1079 
+baû
+;
+
+1081 
+idx
+++;
+
+1084 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1089 i‡(
+idx
+ > 
+íd_idx
+ || 
+°r
+[idx] != '}') {
+
+1090 
+	`øi£_îrmsg
+("Ex≥˘ög obje˘", 
+py°r
+, 
+íd_idx
+);
+
+1091 
+baû
+;
+
+1095 i‡(
+s
+->
+obje˘_hook
+ !
+Py_N⁄e
+) {
+
+1096 
+vÆ
+ = 
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+s
+->
+obje˘_hook
+, 
+rvÆ
+, 
+NULL
+);
+
+1097 i‡(
+vÆ
+ =
+NULL
+)
+
+1098 
+baû
+;
+
+1099 
+	`Py_DECREF
+(
+rvÆ
+);
+
+1100 
+rvÆ
+ = 
+vÆ
+;
+
+1101 
+vÆ
+ = 
+NULL
+;
+
+1103 *
+√xt_idx_±r
+ = 
+idx
+ + 1;
+
+1104  
+rvÆ
+;
+
+1105 
+baû
+:
+
+1106 
+	`Py_XDECREF
+(
+key
+);
+
+1107 
+	`Py_XDECREF
+(
+vÆ
+);
+
+1108 
+	`Py_DECREF
+(
+rvÆ
+);
+
+1109  
+NULL
+;
+
+1110 
+	}
+}
+
+1112 
+PyObje˘
+ *
+
+1113 
+	$_∑r£_¨øy_°r
+(
+PySˇ¬îObje˘
+ *
+s
+, 
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+idx
+, Py_ssize_à*
+√xt_idx_±r
+) {
+
+1121 *
+°r
+ = 
+	`PySåög_AS_STRING
+(
+py°r
+);
+
+1122 
+Py_ssize_t
+ 
+íd_idx
+ = 
+	`PySåög_GET_SIZE
+(
+py°r
+) - 1;
+
+1123 
+PyObje˘
+ *
+vÆ
+ = 
+NULL
+;
+
+1124 
+PyObje˘
+ *
+rvÆ
+ = 
+	`PyLi°_New
+(0);
+
+1125 
+Py_ssize_t
+ 
+√xt_idx
+;
+
+1126 i‡(
+rvÆ
+ =
+NULL
+)
+
+1127  
+NULL
+;
+
+1130 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1133 i‡(
+idx
+ <
+íd_idx
+ && 
+°r
+[idx] != ']') {
+
+1134 
+idx
+ <
+íd_idx
+) {
+
+1137 
+vÆ
+ = 
+	`sˇn_⁄˚_°r
+(
+s
+, 
+py°r
+, 
+idx
+, &
+√xt_idx
+);
+
+1138 i‡(
+vÆ
+ =
+NULL
+)
+
+1139 
+baû
+;
+
+1141 i‡(
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+vÆ
+) == -1)
+
+1142 
+baû
+;
+
+1144 
+	`Py_CLEAR
+(
+vÆ
+);
+
+1145 
+idx
+ = 
+√xt_idx
+;
+
+1148 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1151 i‡(
+idx
+ > 
+íd_idx
+) ;
+
+1152 i‡(
+°r
+[
+idx
+] == ']') {
+
+1155 i‡(
+°r
+[
+idx
+] != ',') {
+
+1156 
+	`øi£_îrmsg
+("Ex≥˘ög , dñimôî", 
+py°r
+, 
+idx
+);
+
+1157 
+baû
+;
+
+1159 
+idx
+++;
+
+1162 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1167 i‡(
+idx
+ > 
+íd_idx
+ || 
+°r
+[idx] != ']') {
+
+1168 
+	`øi£_îrmsg
+("Ex≥˘ög obje˘", 
+py°r
+, 
+íd_idx
+);
+
+1169 
+baû
+;
+
+1171 *
+√xt_idx_±r
+ = 
+idx
+ + 1;
+
+1172  
+rvÆ
+;
+
+1173 
+baû
+:
+
+1174 
+	`Py_XDECREF
+(
+vÆ
+);
+
+1175 
+	`Py_DECREF
+(
+rvÆ
+);
+
+1176  
+NULL
+;
+
+1177 
+	}
+}
+
+1179 
+PyObje˘
+ *
+
+1180 
+	$_∑r£_¨øy_unicode
+(
+PySˇ¬îObje˘
+ *
+s
+, 
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+idx
+, Py_ssize_à*
+√xt_idx_±r
+) {
+
+1188 
+Py_UNICODE
+ *
+°r
+ = 
+	`PyUnicode_AS_UNICODE
+(
+py°r
+);
+
+1189 
+Py_ssize_t
+ 
+íd_idx
+ = 
+	`PyUnicode_GET_SIZE
+(
+py°r
+) - 1;
+
+1190 
+PyObje˘
+ *
+vÆ
+ = 
+NULL
+;
+
+1191 
+PyObje˘
+ *
+rvÆ
+ = 
+	`PyLi°_New
+(0);
+
+1192 
+Py_ssize_t
+ 
+√xt_idx
+;
+
+1193 i‡(
+rvÆ
+ =
+NULL
+)
+
+1194  
+NULL
+;
+
+1197 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1200 i‡(
+idx
+ <
+íd_idx
+ && 
+°r
+[idx] != ']') {
+
+1201 
+idx
+ <
+íd_idx
+) {
+
+1204 
+vÆ
+ = 
+	`sˇn_⁄˚_unicode
+(
+s
+, 
+py°r
+, 
+idx
+, &
+√xt_idx
+);
+
+1205 i‡(
+vÆ
+ =
+NULL
+)
+
+1206 
+baû
+;
+
+1208 i‡(
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+vÆ
+) == -1)
+
+1209 
+baû
+;
+
+1211 
+	`Py_CLEAR
+(
+vÆ
+);
+
+1212 
+idx
+ = 
+√xt_idx
+;
+
+1215 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1218 i‡(
+idx
+ > 
+íd_idx
+) ;
+
+1219 i‡(
+°r
+[
+idx
+] == ']') {
+
+1222 i‡(
+°r
+[
+idx
+] != ',') {
+
+1223 
+	`øi£_îrmsg
+("Ex≥˘ög , dñimôî", 
+py°r
+, 
+idx
+);
+
+1224 
+baû
+;
+
+1226 
+idx
+++;
+
+1229 
+idx
+ <
+íd_idx
+ && 
+	`IS_WHITESPACE
+(
+°r
+[idx])) idx++;
+
+1234 i‡(
+idx
+ > 
+íd_idx
+ || 
+°r
+[idx] != ']') {
+
+1235 
+	`øi£_îrmsg
+("Ex≥˘ög obje˘", 
+py°r
+, 
+íd_idx
+);
+
+1236 
+baû
+;
+
+1238 *
+√xt_idx_±r
+ = 
+idx
+ + 1;
+
+1239  
+rvÆ
+;
+
+1240 
+baû
+:
+
+1241 
+	`Py_XDECREF
+(
+vÆ
+);
+
+1242 
+	`Py_DECREF
+(
+rvÆ
+);
+
+1243  
+NULL
+;
+
+1244 
+	}
+}
+
+1246 
+PyObje˘
+ *
+
+1247 
+	$_∑r£_c⁄°™t
+(
+PySˇ¬îObje˘
+ *
+s
+, *
+c⁄°™t
+, 
+Py_ssize_t
+ 
+idx
+, Py_ssize_à*
+√xt_idx_±r
+) {
+
+1257 
+PyObje˘
+ *
+c°r
+;
+
+1258 
+PyObje˘
+ *
+rvÆ
+;
+
+1260 
+c°r
+ = 
+	`PySåög_I¡înFromSåög
+(
+c⁄°™t
+);
+
+1261 i‡(
+c°r
+ =
+NULL
+)
+
+1262  
+NULL
+;
+
+1265 
+rvÆ
+ = 
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+s
+->
+∑r£_c⁄°™t
+, 
+c°r
+, 
+NULL
+);
+
+1266 
+idx
+ +
+	`PySåög_GET_SIZE
+(
+c°r
+);
+
+1267 
+	`Py_DECREF
+(
+c°r
+);
+
+1268 *
+√xt_idx_±r
+ = 
+idx
+;
+
+1269  
+rvÆ
+;
+
+1270 
+	}
+}
+
+1272 
+PyObje˘
+ *
+
+1273 
+	$_m©ch_numbî_°r
+(
+PySˇ¬îObje˘
+ *
+s
+, 
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+°¨t
+, Py_ssize_à*
+√xt_idx_±r
+) {
+
+1283 *
+°r
+ = 
+	`PySåög_AS_STRING
+(
+py°r
+);
+
+1284 
+Py_ssize_t
+ 
+íd_idx
+ = 
+	`PySåög_GET_SIZE
+(
+py°r
+) - 1;
+
+1285 
+Py_ssize_t
+ 
+idx
+ = 
+°¨t
+;
+
+1286 
+is_Êﬂt
+ = 0;
+
+1287 
+PyObje˘
+ *
+rvÆ
+;
+
+1288 
+PyObje˘
+ *
+num°r
+;
+
+1291 i‡(
+°r
+[
+idx
+] == '-') {
+
+1292 
+idx
+++;
+
+1293 i‡(
+idx
+ > 
+íd_idx
+) {
+
+1294 
+	`PyEº_SëN⁄e
+(
+PyExc_St›Iãøti⁄
+);
+
+1295  
+NULL
+;
+
+1300 i‡(
+°r
+[
+idx
+] >= '1' && str[idx] <= '9') {
+
+1301 
+idx
+++;
+
+1302 
+idx
+ <
+íd_idx
+ && 
+°r
+[idx] >= '0' && str[idx] <= '9') idx++;
+
+1305 i‡(
+°r
+[
+idx
+] == '0') {
+
+1306 
+idx
+++;
+
+1310 
+	`PyEº_SëN⁄e
+(
+PyExc_St›Iãøti⁄
+);
+
+1311  
+NULL
+;
+
+1315 i‡(
+idx
+ < 
+íd_idx
+ && 
+°r
+[idx] == '.' && str[idx + 1] >= '0' && str[idx + 1] <= '9') {
+
+1316 
+is_Êﬂt
+ = 1;
+
+1317 
+idx
+ += 2;
+
+1318 
+idx
+ <
+íd_idx
+ && 
+°r
+[idx] >= '0' && str[idx] <= '9') idx++;
+
+1322 i‡(
+idx
+ < 
+íd_idx
+ && (
+°r
+[idx] == 'e' || str[idx] == 'E')) {
+
+1325 
+Py_ssize_t
+ 
+e_°¨t
+ = 
+idx
+;
+
+1326 
+idx
+++;
+
+1329 i‡(
+idx
+ < 
+íd_idx
+ && (
+°r
+[idx] == '-' || str[idx] == '+')) idx++;
+
+1332 
+idx
+ <
+íd_idx
+ && 
+°r
+[idx] >= '0' && str[idx] <= '9') idx++;
+
+1335 i‡(
+°r
+[
+idx
+ - 1] >= '0' && str[idx - 1] <= '9') {
+
+1336 
+is_Êﬂt
+ = 1;
+
+1339 
+idx
+ = 
+e_°¨t
+;
+
+1344 
+num°r
+ = 
+	`PySåög_FromSåögAndSize
+(&
+°r
+[
+°¨t
+], 
+idx
+ - start);
+
+1345 i‡(
+num°r
+ =
+NULL
+)
+
+1346  
+NULL
+;
+
+1347 i‡(
+is_Êﬂt
+) {
+
+1349 i‡(
+s
+->
+∑r£_Êﬂt
+ !(
+PyObje˘
+ *)&
+PyFlﬂt_Ty≥
+) {
+
+1350 
+rvÆ
+ = 
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+s
+->
+∑r£_Êﬂt
+, 
+num°r
+, 
+NULL
+);
+
+1353 
+rvÆ
+ = 
+	`PyFlﬂt_FromDoubÀ
+(
+	`PyOS_ascii_©of
+(
+	`PySåög_AS_STRING
+(
+num°r
+)));
+
+1358 i‡(
+s
+->
+∑r£_öt
+ !(
+PyObje˘
+ *)&
+PyI¡_Ty≥
+) {
+
+1359 
+rvÆ
+ = 
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+s
+->
+∑r£_öt
+, 
+num°r
+, 
+NULL
+);
+
+1362 
+rvÆ
+ = 
+	`PyI¡_FromSåög
+(
+	`PySåög_AS_STRING
+(
+num°r
+), 
+NULL
+, 10);
+
+1365 
+	`Py_DECREF
+(
+num°r
+);
+
+1366 *
+√xt_idx_±r
+ = 
+idx
+;
+
+1367  
+rvÆ
+;
+
+1368 
+	}
+}
+
+1370 
+PyObje˘
+ *
+
+1371 
+	$_m©ch_numbî_unicode
+(
+PySˇ¬îObje˘
+ *
+s
+, 
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+°¨t
+, Py_ssize_à*
+√xt_idx_±r
+) {
+
+1381 
+Py_UNICODE
+ *
+°r
+ = 
+	`PyUnicode_AS_UNICODE
+(
+py°r
+);
+
+1382 
+Py_ssize_t
+ 
+íd_idx
+ = 
+	`PyUnicode_GET_SIZE
+(
+py°r
+) - 1;
+
+1383 
+Py_ssize_t
+ 
+idx
+ = 
+°¨t
+;
+
+1384 
+is_Êﬂt
+ = 0;
+
+1385 
+PyObje˘
+ *
+rvÆ
+;
+
+1386 
+PyObje˘
+ *
+num°r
+;
+
+1389 i‡(
+°r
+[
+idx
+] == '-') {
+
+1390 
+idx
+++;
+
+1391 i‡(
+idx
+ > 
+íd_idx
+) {
+
+1392 
+	`PyEº_SëN⁄e
+(
+PyExc_St›Iãøti⁄
+);
+
+1393  
+NULL
+;
+
+1398 i‡(
+°r
+[
+idx
+] >= '1' && str[idx] <= '9') {
+
+1399 
+idx
+++;
+
+1400 
+idx
+ <
+íd_idx
+ && 
+°r
+[idx] >= '0' && str[idx] <= '9') idx++;
+
+1403 i‡(
+°r
+[
+idx
+] == '0') {
+
+1404 
+idx
+++;
+
+1408 
+	`PyEº_SëN⁄e
+(
+PyExc_St›Iãøti⁄
+);
+
+1409  
+NULL
+;
+
+1413 i‡(
+idx
+ < 
+íd_idx
+ && 
+°r
+[idx] == '.' && str[idx + 1] >= '0' && str[idx + 1] <= '9') {
+
+1414 
+is_Êﬂt
+ = 1;
+
+1415 
+idx
+ += 2;
+
+1416 
+idx
+ < 
+íd_idx
+ && 
+°r
+[idx] >= '0' && str[idx] <= '9') idx++;
+
+1420 i‡(
+idx
+ < 
+íd_idx
+ && (
+°r
+[idx] == 'e' || str[idx] == 'E')) {
+
+1421 
+Py_ssize_t
+ 
+e_°¨t
+ = 
+idx
+;
+
+1422 
+idx
+++;
+
+1425 i‡(
+idx
+ < 
+íd_idx
+ && (
+°r
+[idx] == '-' || str[idx] == '+')) idx++;
+
+1428 
+idx
+ <
+íd_idx
+ && 
+°r
+[idx] >= '0' && str[idx] <= '9') idx++;
+
+1431 i‡(
+°r
+[
+idx
+ - 1] >= '0' && str[idx - 1] <= '9') {
+
+1432 
+is_Êﬂt
+ = 1;
+
+1435 
+idx
+ = 
+e_°¨t
+;
+
+1440 
+num°r
+ = 
+	`PyUnicode_FromUnicode
+(&
+°r
+[
+°¨t
+], 
+idx
+ - start);
+
+1441 i‡(
+num°r
+ =
+NULL
+)
+
+1442  
+NULL
+;
+
+1443 i‡(
+is_Êﬂt
+) {
+
+1445 i‡(
+s
+->
+∑r£_Êﬂt
+ !(
+PyObje˘
+ *)&
+PyFlﬂt_Ty≥
+) {
+
+1446 
+rvÆ
+ = 
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+s
+->
+∑r£_Êﬂt
+, 
+num°r
+, 
+NULL
+);
+
+1449 
+rvÆ
+ = 
+	`PyFlﬂt_FromSåög
+(
+num°r
+, 
+NULL
+);
+
+1454 
+rvÆ
+ = 
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+s
+->
+∑r£_öt
+, 
+num°r
+, 
+NULL
+);
+
+1456 
+	`Py_DECREF
+(
+num°r
+);
+
+1457 *
+√xt_idx_±r
+ = 
+idx
+;
+
+1458  
+rvÆ
+;
+
+1459 
+	}
+}
+
+1461 
+PyObje˘
+ *
+
+1462 
+	$sˇn_⁄˚_°r
+(
+PySˇ¬îObje˘
+ *
+s
+, 
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+idx
+, Py_ssize_à*
+√xt_idx_±r
+)
+
+1471 *
+°r
+ = 
+	`PySåög_AS_STRING
+(
+py°r
+);
+
+1472 
+Py_ssize_t
+ 
+Àngth
+ = 
+	`PySåög_GET_SIZE
+(
+py°r
+);
+
+1473 i‡(
+idx
+ >
+Àngth
+) {
+
+1474 
+	`PyEº_SëN⁄e
+(
+PyExc_St›Iãøti⁄
+);
+
+1475  
+NULL
+;
+
+1477 
+°r
+[
+idx
+]) {
+
+1480  
+	`sˇn°rög_°r
+(
+py°r
+, 
+idx
+ + 1,
+
+1481 
+	`PySåög_AS_STRING
+(
+s
+->
+ícodög
+),
+
+1482 
+	`PyObje˘_IsTrue
+(
+s
+->
+°ri˘
+),
+
+1483 
+√xt_idx_±r
+);
+
+1486  
+	`_∑r£_obje˘_°r
+(
+s
+, 
+py°r
+, 
+idx
+ + 1, 
+√xt_idx_±r
+);
+
+1489  
+	`_∑r£_¨øy_°r
+(
+s
+, 
+py°r
+, 
+idx
+ + 1, 
+√xt_idx_±r
+);
+
+1492 i‡((
+idx
+ + 3 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'u' && str[idx + 2] == 'l' && str[idx + 3] == 'l') {
+
+1493 
+	`Py_INCREF
+(
+Py_N⁄e
+);
+
+1494 *
+√xt_idx_±r
+ = 
+idx
+ + 4;
+
+1495  
+Py_N⁄e
+;
+
+1500 i‡((
+idx
+ + 3 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'r' && str[idx + 2] == 'u' && str[idx + 3] == 'e') {
+
+1501 
+	`Py_INCREF
+(
+Py_True
+);
+
+1502 *
+√xt_idx_±r
+ = 
+idx
+ + 4;
+
+1503  
+Py_True
+;
+
+1508 i‡((
+idx
+ + 4 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'a' && str[idx + 2] == 'l' && str[idx + 3] == 's' && str[idx + 4] == 'e') {
+
+1509 
+	`Py_INCREF
+(
+Py_FÆ£
+);
+
+1510 *
+√xt_idx_±r
+ = 
+idx
+ + 5;
+
+1511  
+Py_FÆ£
+;
+
+1516 i‡((
+idx
+ + 2 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'a' && str[idx + 2] == 'N') {
+
+1517  
+	`_∑r£_c⁄°™t
+(
+s
+, "NaN", 
+idx
+, 
+√xt_idx_±r
+);
+
+1522 i‡((
+idx
+ + 7 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'n' && str[idx + 2] == 'f' && str[idx + 3] == 'i' && str[idx + 4] == 'n' && str[idx + 5] == 'i' && str[idx + 6] == 't' && str[idx + 7] == 'y') {
+
+1523  
+	`_∑r£_c⁄°™t
+(
+s
+, "Inföôy", 
+idx
+, 
+√xt_idx_±r
+);
+
+1528 i‡((
+idx
+ + 8 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'I' && str[idx + 2] == 'n' && str[idx + 3] == 'f' && str[idx + 4] == 'i' && str[idx + 5] == 'n' && str[idx + 6] == 'i' && str[idx + 7] == 't' && str[idx + 8] == 'y') {
+
+1529  
+	`_∑r£_c⁄°™t
+(
+s
+, "-Inföôy", 
+idx
+, 
+√xt_idx_±r
+);
+
+1534  
+	`_m©ch_numbî_°r
+(
+s
+, 
+py°r
+, 
+idx
+, 
+√xt_idx_±r
+);
+
+1535 
+	}
+}
+
+1537 
+PyObje˘
+ *
+
+1538 
+	$sˇn_⁄˚_unicode
+(
+PySˇ¬îObje˘
+ *
+s
+, 
+PyObje˘
+ *
+py°r
+, 
+Py_ssize_t
+ 
+idx
+, Py_ssize_à*
+√xt_idx_±r
+)
+
+1547 
+Py_UNICODE
+ *
+°r
+ = 
+	`PyUnicode_AS_UNICODE
+(
+py°r
+);
+
+1548 
+Py_ssize_t
+ 
+Àngth
+ = 
+	`PyUnicode_GET_SIZE
+(
+py°r
+);
+
+1549 i‡(
+idx
+ >
+Àngth
+) {
+
+1550 
+	`PyEº_SëN⁄e
+(
+PyExc_St›Iãøti⁄
+);
+
+1551  
+NULL
+;
+
+1553 
+°r
+[
+idx
+]) {
+
+1556  
+	`sˇn°rög_unicode
+(
+py°r
+, 
+idx
+ + 1,
+
+1557 
+	`PyObje˘_IsTrue
+(
+s
+->
+°ri˘
+),
+
+1558 
+√xt_idx_±r
+);
+
+1561  
+	`_∑r£_obje˘_unicode
+(
+s
+, 
+py°r
+, 
+idx
+ + 1, 
+√xt_idx_±r
+);
+
+1564  
+	`_∑r£_¨øy_unicode
+(
+s
+, 
+py°r
+, 
+idx
+ + 1, 
+√xt_idx_±r
+);
+
+1567 i‡((
+idx
+ + 3 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'u' && str[idx + 2] == 'l' && str[idx + 3] == 'l') {
+
+1568 
+	`Py_INCREF
+(
+Py_N⁄e
+);
+
+1569 *
+√xt_idx_±r
+ = 
+idx
+ + 4;
+
+1570  
+Py_N⁄e
+;
+
+1575 i‡((
+idx
+ + 3 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'r' && str[idx + 2] == 'u' && str[idx + 3] == 'e') {
+
+1576 
+	`Py_INCREF
+(
+Py_True
+);
+
+1577 *
+√xt_idx_±r
+ = 
+idx
+ + 4;
+
+1578  
+Py_True
+;
+
+1583 i‡((
+idx
+ + 4 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'a' && str[idx + 2] == 'l' && str[idx + 3] == 's' && str[idx + 4] == 'e') {
+
+1584 
+	`Py_INCREF
+(
+Py_FÆ£
+);
+
+1585 *
+√xt_idx_±r
+ = 
+idx
+ + 5;
+
+1586  
+Py_FÆ£
+;
+
+1591 i‡((
+idx
+ + 2 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'a' && str[idx + 2] == 'N') {
+
+1592  
+	`_∑r£_c⁄°™t
+(
+s
+, "NaN", 
+idx
+, 
+√xt_idx_±r
+);
+
+1597 i‡((
+idx
+ + 7 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'n' && str[idx + 2] == 'f' && str[idx + 3] == 'i' && str[idx + 4] == 'n' && str[idx + 5] == 'i' && str[idx + 6] == 't' && str[idx + 7] == 'y') {
+
+1598  
+	`_∑r£_c⁄°™t
+(
+s
+, "Inföôy", 
+idx
+, 
+√xt_idx_±r
+);
+
+1603 i‡((
+idx
+ + 8 < 
+Àngth
+Ë&& 
+°r
+[idx + 1] == 'I' && str[idx + 2] == 'n' && str[idx + 3] == 'f' && str[idx + 4] == 'i' && str[idx + 5] == 'n' && str[idx + 6] == 'i' && str[idx + 7] == 't' && str[idx + 8] == 'y') {
+
+1604  
+	`_∑r£_c⁄°™t
+(
+s
+, "-Inföôy", 
+idx
+, 
+√xt_idx_±r
+);
+
+1609  
+	`_m©ch_numbî_unicode
+(
+s
+, 
+py°r
+, 
+idx
+, 
+√xt_idx_±r
+);
+
+1610 
+	}
+}
+
+1612 
+PyObje˘
+ *
+
+1613 
+	$sˇ¬î_ˇŒ
+(
+PyObje˘
+ *
+£lf
+, PyObje˘ *
+¨gs
+, PyObje˘ *
+kwds
+)
+
+1616 
+PyObje˘
+ *
+py°r
+;
+
+1617 
+PyObje˘
+ *
+rvÆ
+;
+
+1618 
+Py_ssize_t
+ 
+idx
+;
+
+1619 
+Py_ssize_t
+ 
+√xt_idx
+ = -1;
+
+1620 *
+kwli°
+[] = {"°rög", "idx", 
+NULL
+};
+
+1621 
+PySˇ¬îObje˘
+ *
+s
+;
+
+1622 
+	`as£π
+(
+	`PySˇ¬î_Check
+(
+£lf
+));
+
+1623 
+s
+ = (
+PySˇ¬îObje˘
+ *)
+£lf
+;
+
+1624 i‡(!
+	`PyArg_P¨£Tu∂eAndKeyw‹ds
+(
+¨gs
+, 
+kwds
+, "OO&:sˇn_⁄˚", 
+kwli°
+, &
+py°r
+, 
+_c⁄vîtPyI¡_AsSsize_t
+, &
+idx
+))
+
+1625  
+NULL
+;
+
+1627 i‡(
+	`PySåög_Check
+(
+py°r
+)) {
+
+1628 
+rvÆ
+ = 
+	`sˇn_⁄˚_°r
+(
+s
+, 
+py°r
+, 
+idx
+, &
+√xt_idx
+);
+
+1630 i‡(
+	`PyUnicode_Check
+(
+py°r
+)) {
+
+1631 
+rvÆ
+ = 
+	`sˇn_⁄˚_unicode
+(
+s
+, 
+py°r
+, 
+idx
+, &
+√xt_idx
+);
+
+1634 
+	`PyEº_F‹m©
+(
+PyExc_Ty≥Eº‹
+,
+
+1636 
+	`Py_TYPE
+(
+py°r
+)->
+ç_«me
+);
+
+1637  
+NULL
+;
+
+1639  
+	`_buûd_rvÆ_ödex_tu∂e
+(
+rvÆ
+, 
+√xt_idx
+);
+
+1640 
+	}
+}
+
+1642 
+PyObje˘
+ *
+
+1643 
+	$sˇ¬î_√w
+(
+PyTy≥Obje˘
+ *
+ty≥
+, 
+PyObje˘
+ *
+¨gs
+, PyObje˘ *
+kwds
+)
+
+1645 
+PySˇ¬îObje˘
+ *
+s
+;
+
+1646 
+s
+ = (
+PySˇ¬îObje˘
+ *)
+ty≥
+->
+	`ç_Æloc
+(type, 0);
+
+1647 i‡(
+s
+ !
+NULL
+) {
+
+1648 
+s
+->
+ícodög
+ = 
+NULL
+;
+
+1649 
+s
+->
+°ri˘
+ = 
+NULL
+;
+
+1650 
+s
+->
+obje˘_hook
+ = 
+NULL
+;
+
+1651 
+s
+->
+∑r£_Êﬂt
+ = 
+NULL
+;
+
+1652 
+s
+->
+∑r£_öt
+ = 
+NULL
+;
+
+1653 
+s
+->
+∑r£_c⁄°™t
+ = 
+NULL
+;
+
+1655  (
+PyObje˘
+ *)
+s
+;
+
+1656 
+	}
+}
+
+1659 
+	$sˇ¬î_öô
+(
+PyObje˘
+ *
+£lf
+, PyObje˘ *
+¨gs
+, PyObje˘ *
+kwds
+)
+
+1662 
+PyObje˘
+ *
+˘x
+;
+
+1663 *
+kwli°
+[] = {"c⁄ãxt", 
+NULL
+};
+
+1664 
+PySˇ¬îObje˘
+ *
+s
+;
+
+1666 
+	`as£π
+(
+	`PySˇ¬î_Check
+(
+£lf
+));
+
+1667 
+s
+ = (
+PySˇ¬îObje˘
+ *)
+£lf
+;
+
+1669 i‡(!
+	`PyArg_P¨£Tu∂eAndKeyw‹ds
+(
+¨gs
+, 
+kwds
+, "O:make_sˇ¬î", 
+kwli°
+, &
+˘x
+))
+
+1673 
+s
+->
+ícodög
+ = 
+	`PyObje˘_GëAârSåög
+(
+˘x
+, "encoding");
+
+1674 i‡(
+s
+->
+ícodög
+ =
+Py_N⁄e
+) {
+
+1675 
+	`Py_DECREF
+(
+Py_N⁄e
+);
+
+1676 
+s
+->
+ícodög
+ = 
+	`PySåög_I¡înFromSåög
+(
+DEFAULT_ENCODING
+);
+
+1678 i‡(
+	`PyUnicode_Check
+(
+s
+->
+ícodög
+)) {
+
+1679 
+PyObje˘
+ *
+tmp
+ = 
+	`PyUnicode_AsEncodedSåög
+(
+s
+->
+ícodög
+, 
+NULL
+, NULL);
+
+1680 
+	`Py_DECREF
+(
+s
+->
+ícodög
+);
+
+1681 
+s
+->
+ícodög
+ = 
+tmp
+;
+
+1683 i‡(
+s
+->
+ícodög
+ =
+NULL
+ || !
+	`PySåög_Check
+(s->encoding))
+
+1684 
+baû
+;
+
+1687 
+s
+->
+°ri˘
+ = 
+	`PyObje˘_GëAârSåög
+(
+˘x
+, "strict");
+
+1688 i‡(
+s
+->
+°ri˘
+ =
+NULL
+)
+
+1689 
+baû
+;
+
+1690 
+s
+->
+obje˘_hook
+ = 
+	`PyObje˘_GëAârSåög
+(
+˘x
+, "object_hook");
+
+1691 i‡(
+s
+->
+obje˘_hook
+ =
+NULL
+)
+
+1692 
+baû
+;
+
+1693 
+s
+->
+∑r£_Êﬂt
+ = 
+	`PyObje˘_GëAârSåög
+(
+˘x
+, "parse_float");
+
+1694 i‡(
+s
+->
+∑r£_Êﬂt
+ =
+NULL
+)
+
+1695 
+baû
+;
+
+1696 
+s
+->
+∑r£_öt
+ = 
+	`PyObje˘_GëAârSåög
+(
+˘x
+, "parse_int");
+
+1697 i‡(
+s
+->
+∑r£_öt
+ =
+NULL
+)
+
+1698 
+baû
+;
+
+1699 
+s
+->
+∑r£_c⁄°™t
+ = 
+	`PyObje˘_GëAârSåög
+(
+˘x
+, "parse_constant");
+
+1700 i‡(
+s
+->
+∑r£_c⁄°™t
+ =
+NULL
+)
+
+1701 
+baû
+;
+
+1705 
+baû
+:
+
+1706 
+	`Py_CLEAR
+(
+s
+->
+ícodög
+);
+
+1707 
+	`Py_CLEAR
+(
+s
+->
+°ri˘
+);
+
+1708 
+	`Py_CLEAR
+(
+s
+->
+obje˘_hook
+);
+
+1709 
+	`Py_CLEAR
+(
+s
+->
+∑r£_Êﬂt
+);
+
+1710 
+	`Py_CLEAR
+(
+s
+->
+∑r£_öt
+);
+
+1711 
+	`Py_CLEAR
+(
+s
+->
+∑r£_c⁄°™t
+);
+
+1713 
+	}
+}
+
+1715 
+PyDoc_STRVAR
+(
+sˇ¬î_doc
+, "JSON scanner object");
+
+1718 
+PyTy≥Obje˘
+ 
+	gPySˇ¬îTy≥
+ = {
+
+1719 
+PyObje˘_HEAD_INIT
+(
+NULL
+)
+
+1722 (
+PySˇ¬îObje˘
+),
+
+1724 
+sˇ¬î_dóŒoc
+,
+
+1734 
+sˇ¬î_ˇŒ
+,
+
+1739 
+Py_TPFLAGS_DEFAULT
+ | 
+Py_TPFLAGS_HAVE_GC
+,
+
+1740 
+sˇ¬î_doc
+,
+
+1741 
+sˇ¬î_åavî£
+,
+
+1742 
+sˇ¬î_˛ór
+,
+
+1748 
+sˇ¬î_membîs
+,
+
+1755 
+sˇ¬î_öô
+,
+
+1757 
+sˇ¬î_√w
+,
+
+1761 
+PyObje˘
+ *
+
+1762 
+	$ícodî_√w
+(
+PyTy≥Obje˘
+ *
+ty≥
+, 
+PyObje˘
+ *
+¨gs
+, PyObje˘ *
+kwds
+)
+
+1764 
+PyEncodîObje˘
+ *
+s
+;
+
+1765 
+s
+ = (
+PyEncodîObje˘
+ *)
+ty≥
+->
+	`ç_Æloc
+(type, 0);
+
+1766 i‡(
+s
+ !
+NULL
+) {
+
+1767 
+s
+->
+m¨kîs
+ = 
+NULL
+;
+
+1768 
+s
+->
+deÁu…‚
+ = 
+NULL
+;
+
+1769 
+s
+->
+ícodî
+ = 
+NULL
+;
+
+1770 
+s
+->
+ödít
+ = 
+NULL
+;
+
+1771 
+s
+->
+key_£∑øt‹
+ = 
+NULL
+;
+
+1772 
+s
+->
+ôem_£∑øt‹
+ = 
+NULL
+;
+
+1773 
+s
+->
+s‹t_keys
+ = 
+NULL
+;
+
+1774 
+s
+->
+skùkeys
+ = 
+NULL
+;
+
+1776  (
+PyObje˘
+ *)
+s
+;
+
+1777 
+	}
+}
+
+1780 
+	$ícodî_öô
+(
+PyObje˘
+ *
+£lf
+, PyObje˘ *
+¨gs
+, PyObje˘ *
+kwds
+)
+
+1783 *
+kwli°
+[] = {"m¨kîs", "deÁu…", "ícodî", "ödít", "key_£∑øt‹", "ôem_£∑øt‹", "s‹t_keys", "skùkeys", "Ælow_«n", 
+NULL
+};
+
+1785 
+PyEncodîObje˘
+ *
+s
+;
+
+1786 
+PyObje˘
+ *
+Ælow_«n
+;
+
+1788 
+	`as£π
+(
+	`PyEncodî_Check
+(
+£lf
+));
+
+1789 
+s
+ = (
+PyEncodîObje˘
+ *)
+£lf
+;
+
+1791 i‡(!
+	`PyArg_P¨£Tu∂eAndKeyw‹ds
+(
+¨gs
+, 
+kwds
+, "OOOOOOOOO:make_ícodî", 
+kwli°
+,
+
+1792 &
+s
+->
+m¨kîs
+, &s->
+deÁu…‚
+, &s->
+ícodî
+, &s->
+ödít
+, &s->
+key_£∑øt‹
+, &s->
+ôem_£∑øt‹
+, &s->
+s‹t_keys
+, &s->
+skùkeys
+, &
+Ælow_«n
+))
+
+1795 
+	`Py_INCREF
+(
+s
+->
+m¨kîs
+);
+
+1796 
+	`Py_INCREF
+(
+s
+->
+deÁu…‚
+);
+
+1797 
+	`Py_INCREF
+(
+s
+->
+ícodî
+);
+
+1798 
+	`Py_INCREF
+(
+s
+->
+ödít
+);
+
+1799 
+	`Py_INCREF
+(
+s
+->
+key_£∑øt‹
+);
+
+1800 
+	`Py_INCREF
+(
+s
+->
+ôem_£∑øt‹
+);
+
+1801 
+	`Py_INCREF
+(
+s
+->
+s‹t_keys
+);
+
+1802 
+	`Py_INCREF
+(
+s
+->
+skùkeys
+);
+
+1803 
+s
+->
+Á°_ícode
+ = (
+	`PyCFun˘i⁄_Check
+(s->
+ícodî
+Ë&& 
+	`PyCFun˘i⁄_GëFun˘i⁄
+(s->ícodîË=(
+PyCFun˘i⁄
+)
+py_ícode_ba£°rög_ascii
+);
+
+1804 
+s
+->
+Ælow_«n
+ = 
+	`PyObje˘_IsTrue
+(allow_nan);
+
+1806 
+	}
+}
+
+1808 
+PyObje˘
+ *
+
+1809 
+	$ícodî_ˇŒ
+(
+PyObje˘
+ *
+£lf
+, PyObje˘ *
+¨gs
+, PyObje˘ *
+kwds
+)
+
+1812 *
+kwli°
+[] = {"obj", "_cuºít_ödít_Àvñ", 
+NULL
+};
+
+1813 
+PyObje˘
+ *
+obj
+;
+
+1814 
+PyObje˘
+ *
+rvÆ
+;
+
+1815 
+Py_ssize_t
+ 
+ödít_Àvñ
+;
+
+1816 
+PyEncodîObje˘
+ *
+s
+;
+
+1817 
+	`as£π
+(
+	`PyEncodî_Check
+(
+£lf
+));
+
+1818 
+s
+ = (
+PyEncodîObje˘
+ *)
+£lf
+;
+
+1819 i‡(!
+	`PyArg_P¨£Tu∂eAndKeyw‹ds
+(
+¨gs
+, 
+kwds
+, "OO&:_ôîícode", 
+kwli°
+,
+
+1820 &
+obj
+, 
+_c⁄vîtPyI¡_AsSsize_t
+, &
+ödít_Àvñ
+))
+
+1821  
+NULL
+;
+
+1822 
+rvÆ
+ = 
+	`PyLi°_New
+(0);
+
+1823 i‡(
+rvÆ
+ =
+NULL
+)
+
+1824  
+NULL
+;
+
+1825 i‡(
+	`ícodî_li°ícode_obj
+(
+s
+, 
+rvÆ
+, 
+obj
+, 
+ödít_Àvñ
+)) {
+
+1826 
+	`Py_DECREF
+(
+rvÆ
+);
+
+1827  
+NULL
+;
+
+1829  
+rvÆ
+;
+
+1830 
+	}
+}
+
+1832 
+PyObje˘
+ *
+
+1833 
+	$_ícoded_c⁄°
+(
+PyObje˘
+ *
+obj
+)
+
+1836 i‡(
+obj
+ =
+Py_N⁄e
+) {
+
+1837 
+PyObje˘
+ *
+s_nuŒ
+ = 
+NULL
+;
+
+1838 i‡(
+s_nuŒ
+ =
+NULL
+) {
+
+1839 
+s_nuŒ
+ = 
+	`PySåög_I¡înFromSåög
+("null");
+
+1841 
+	`Py_INCREF
+(
+s_nuŒ
+);
+
+1842  
+s_nuŒ
+;
+
+1844 i‡(
+obj
+ =
+Py_True
+) {
+
+1845 
+PyObje˘
+ *
+s_åue
+ = 
+NULL
+;
+
+1846 i‡(
+s_åue
+ =
+NULL
+) {
+
+1847 
+s_åue
+ = 
+	`PySåög_I¡înFromSåög
+("true");
+
+1849 
+	`Py_INCREF
+(
+s_åue
+);
+
+1850  
+s_åue
+;
+
+1852 i‡(
+obj
+ =
+Py_FÆ£
+) {
+
+1853 
+PyObje˘
+ *
+s_Ál£
+ = 
+NULL
+;
+
+1854 i‡(
+s_Ál£
+ =
+NULL
+) {
+
+1855 
+s_Ál£
+ = 
+	`PySåög_I¡înFromSåög
+("false");
+
+1857 
+	`Py_INCREF
+(
+s_Ál£
+);
+
+1858  
+s_Ál£
+;
+
+1861 
+	`PyEº_SëSåög
+(
+PyExc_VÆueEº‹
+, "notá const");
+
+1862  
+NULL
+;
+
+1864 
+	}
+}
+
+1866 
+PyObje˘
+ *
+
+1867 
+	$ícodî_ícode_Êﬂt
+(
+PyEncodîObje˘
+ *
+s
+, 
+PyObje˘
+ *
+obj
+)
+
+1870 
+i
+ = 
+	`PyFlﬂt_AS_DOUBLE
+(
+obj
+);
+
+1871 i‡(!
+	`Py_IS_FINITE
+(
+i
+)) {
+
+1872 i‡(!
+s
+->
+Ælow_«n
+) {
+
+1873 
+	`PyEº_SëSåög
+(
+PyExc_VÆueEº‹
+, "Out ofÑange float valuesáreÇot JSON compliant");
+
+1874  
+NULL
+;
+
+1876 i‡(
+i
+ > 0) {
+
+1877  
+	`PySåög_FromSåög
+("Infinity");
+
+1879 i‡(
+i
+ < 0) {
+
+1880  
+	`PySåög_FromSåög
+("-Infinity");
+
+1883  
+	`PySåög_FromSåög
+("NaN");
+
+1887  
+	`PyObje˘_Rïr
+(
+obj
+);
+
+1888 
+	}
+}
+
+1890 
+PyObje˘
+ *
+
+1891 
+	$ícodî_ícode_°rög
+(
+PyEncodîObje˘
+ *
+s
+, 
+PyObje˘
+ *
+obj
+)
+
+1894 i‡(
+s
+->
+Á°_ícode
+)
+
+1895  
+	`py_ícode_ba£°rög_ascii
+(
+NULL
+, 
+obj
+);
+
+1897  
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+s
+->
+ícodî
+, 
+obj
+, 
+NULL
+);
+
+1898 
+	}
+}
+
+1901 
+	$_°ól_li°_≠≥nd
+(
+PyObje˘
+ *
+l°
+, PyObje˘ *
+°ﬁí
+)
+
+1904 
+rvÆ
+ = 
+	`PyLi°_Aµíd
+(
+l°
+, 
+°ﬁí
+);
+
+1905 
+	`Py_DECREF
+(
+°ﬁí
+);
+
+1906  
+rvÆ
+;
+
+1907 
+	}
+}
+
+1910 
+	$ícodî_li°ícode_obj
+(
+PyEncodîObje˘
+ *
+s
+, 
+PyObje˘
+ *
+rvÆ
+, PyObje˘ *
+obj
+, 
+Py_ssize_t
+ 
+ödít_Àvñ
+)
+
+1913 
+PyObje˘
+ *
+√wobj
+;
+
+1914 
+rv
+;
+
+1916 i‡(
+obj
+ =
+Py_N⁄e
+ || obj =
+Py_True
+ || obj =
+Py_FÆ£
+) {
+
+1917 
+PyObje˘
+ *
+c°r
+ = 
+	`_ícoded_c⁄°
+(
+obj
+);
+
+1918 i‡(
+c°r
+ =
+NULL
+)
+
+1920  
+	`_°ól_li°_≠≥nd
+(
+rvÆ
+, 
+c°r
+);
+
+1922 i‡(
+	`PySåög_Check
+(
+obj
+Ë|| 
+	`PyUnicode_Check
+(obj))
+
+1924 
+PyObje˘
+ *
+ícoded
+ = 
+	`ícodî_ícode_°rög
+(
+s
+, 
+obj
+);
+
+1925 i‡(
+ícoded
+ =
+NULL
+)
+
+1927  
+	`_°ól_li°_≠≥nd
+(
+rvÆ
+, 
+ícoded
+);
+
+1929 i‡(
+	`PyI¡_Check
+(
+obj
+Ë|| 
+	`PyL⁄g_Check
+(obj)) {
+
+1930 
+PyObje˘
+ *
+ícoded
+ = 
+	`PyObje˘_Så
+(
+obj
+);
+
+1931 i‡(
+ícoded
+ =
+NULL
+)
+
+1933  
+	`_°ól_li°_≠≥nd
+(
+rvÆ
+, 
+ícoded
+);
+
+1935 i‡(
+	`PyFlﬂt_Check
+(
+obj
+)) {
+
+1936 
+PyObje˘
+ *
+ícoded
+ = 
+	`ícodî_ícode_Êﬂt
+(
+s
+, 
+obj
+);
+
+1937 i‡(
+ícoded
+ =
+NULL
+)
+
+1939  
+	`_°ól_li°_≠≥nd
+(
+rvÆ
+, 
+ícoded
+);
+
+1941 i‡(
+	`PyLi°_Check
+(
+obj
+Ë|| 
+	`PyTu∂e_Check
+(obj)) {
+
+1942  
+	`ícodî_li°ícode_li°
+(
+s
+, 
+rvÆ
+, 
+obj
+, 
+ödít_Àvñ
+);
+
+1944 i‡(
+	`PyDi˘_Check
+(
+obj
+)) {
+
+1945  
+	`ícodî_li°ícode_di˘
+(
+s
+, 
+rvÆ
+, 
+obj
+, 
+ödít_Àvñ
+);
+
+1948 
+PyObje˘
+ *
+idít
+ = 
+NULL
+;
+
+1949 i‡(
+s
+->
+m¨kîs
+ !
+Py_N⁄e
+) {
+
+1950 
+has_key
+;
+
+1951 
+idít
+ = 
+	`PyL⁄g_FromVoidPå
+(
+obj
+);
+
+1952 i‡(
+idít
+ =
+NULL
+)
+
+1954 
+has_key
+ = 
+	`PyDi˘_C⁄èös
+(
+s
+->
+m¨kîs
+, 
+idít
+);
+
+1955 i‡(
+has_key
+) {
+
+1956 i‡(
+has_key
+ != -1)
+
+1957 
+	`PyEº_SëSåög
+(
+PyExc_VÆueEº‹
+, "CircularÑeference detected");
+
+1958 
+	`Py_DECREF
+(
+idít
+);
+
+1961 i‡(
+	`PyDi˘_SëIãm
+(
+s
+->
+m¨kîs
+, 
+idít
+, 
+obj
+)) {
+
+1962 
+	`Py_DECREF
+(
+idít
+);
+
+1966 
+√wobj
+ = 
+	`PyObje˘_CÆlFun˘i⁄ObjArgs
+(
+s
+->
+deÁu…‚
+, 
+obj
+, 
+NULL
+);
+
+1967 i‡(
+√wobj
+ =
+NULL
+) {
+
+1968 
+	`Py_XDECREF
+(
+idít
+);
+
+1971 
+rv
+ = 
+	`ícodî_li°ícode_obj
+(
+s
+, 
+rvÆ
+, 
+√wobj
+, 
+ödít_Àvñ
+);
+
+1972 
+	`Py_DECREF
+(
+√wobj
+);
+
+1973 i‡(
+rv
+) {
+
+1974 
+	`Py_XDECREF
+(
+idít
+);
+
+1977 i‡(
+idít
+ !
+NULL
+) {
+
+1978 i‡(
+	`PyDi˘_DñIãm
+(
+s
+->
+m¨kîs
+, 
+idít
+)) {
+
+1979 
+	`Py_XDECREF
+(
+idít
+);
+
+1982 
+	`Py_XDECREF
+(
+idít
+);
+
+1984  
+rv
+;
+
+1986 
+	}
+}
+
+1989 
+	$ícodî_li°ícode_di˘
+(
+PyEncodîObje˘
+ *
+s
+, 
+PyObje˘
+ *
+rvÆ
+, PyObje˘ *
+d˘
+, 
+Py_ssize_t
+ 
+ödít_Àvñ
+)
+
+1992 
+PyObje˘
+ *
+›í_di˘
+ = 
+NULL
+;
+
+1993 
+PyObje˘
+ *
+˛o£_di˘
+ = 
+NULL
+;
+
+1994 
+PyObje˘
+ *
+em±y_di˘
+ = 
+NULL
+;
+
+1995 
+PyObje˘
+ *
+k°r
+ = 
+NULL
+;
+
+1996 
+PyObje˘
+ *
+idít
+ = 
+NULL
+;
+
+1997 
+PyObje˘
+ *
+key
+, *
+vÆue
+;
+
+1998 
+Py_ssize_t
+ 
+pos
+;
+
+1999 
+skùkeys
+;
+
+2000 
+Py_ssize_t
+ 
+idx
+;
+
+2002 i‡(
+›í_di˘
+ =
+NULL
+ || 
+˛o£_di˘
+ =NULL || 
+em±y_di˘
+ == NULL) {
+
+2003 
+›í_di˘
+ = 
+	`PySåög_I¡înFromSåög
+("{");
+
+2004 
+˛o£_di˘
+ = 
+	`PySåög_I¡înFromSåög
+("}");
+
+2005 
+em±y_di˘
+ = 
+	`PySåög_I¡înFromSåög
+("{}");
+
+2006 i‡(
+›í_di˘
+ =
+NULL
+ || 
+˛o£_di˘
+ =NULL || 
+em±y_di˘
+ == NULL)
+
+2009 i‡(
+	`PyDi˘_Size
+(
+d˘
+) == 0)
+
+2010  
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+em±y_di˘
+);
+
+2012 i‡(
+s
+->
+m¨kîs
+ !
+Py_N⁄e
+) {
+
+2013 
+has_key
+;
+
+2014 
+idít
+ = 
+	`PyL⁄g_FromVoidPå
+(
+d˘
+);
+
+2015 i‡(
+idít
+ =
+NULL
+)
+
+2016 
+baû
+;
+
+2017 
+has_key
+ = 
+	`PyDi˘_C⁄èös
+(
+s
+->
+m¨kîs
+, 
+idít
+);
+
+2018 i‡(
+has_key
+) {
+
+2019 i‡(
+has_key
+ != -1)
+
+2020 
+	`PyEº_SëSåög
+(
+PyExc_VÆueEº‹
+, "CircularÑeference detected");
+
+2021 
+baû
+;
+
+2023 i‡(
+	`PyDi˘_SëIãm
+(
+s
+->
+m¨kîs
+, 
+idít
+, 
+d˘
+)) {
+
+2024 
+baû
+;
+
+2028 i‡(
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+›í_di˘
+))
+
+2029 
+baû
+;
+
+2031 i‡(
+s
+->
+ödít
+ !
+Py_N⁄e
+) {
+
+2033 
+ödít_Àvñ
+ += 1;
+
+2043 
+pos
+ = 0;
+
+2044 
+skùkeys
+ = 
+	`PyObje˘_IsTrue
+(
+s
+->skipkeys);
+
+2045 
+idx
+ = 0;
+
+2046 
+	`PyDi˘_Next
+(
+d˘
+, &
+pos
+, &
+key
+, &
+vÆue
+)) {
+
+2047 
+PyObje˘
+ *
+ícoded
+;
+
+2049 i‡(
+	`PySåög_Check
+(
+key
+Ë|| 
+	`PyUnicode_Check
+(key)) {
+
+2050 
+	`Py_INCREF
+(
+key
+);
+
+2051 
+k°r
+ = 
+key
+;
+
+2053 i‡(
+	`PyFlﬂt_Check
+(
+key
+)) {
+
+2054 
+k°r
+ = 
+	`ícodî_ícode_Êﬂt
+(
+s
+, 
+key
+);
+
+2055 i‡(
+k°r
+ =
+NULL
+)
+
+2056 
+baû
+;
+
+2058 i‡(
+	`PyI¡_Check
+(
+key
+Ë|| 
+	`PyL⁄g_Check
+(key)) {
+
+2059 
+k°r
+ = 
+	`PyObje˘_Så
+(
+key
+);
+
+2060 i‡(
+k°r
+ =
+NULL
+)
+
+2061 
+baû
+;
+
+2063 i‡(
+key
+ =
+Py_True
+ || key =
+Py_FÆ£
+ || key =
+Py_N⁄e
+) {
+
+2064 
+k°r
+ = 
+	`_ícoded_c⁄°
+(
+key
+);
+
+2065 i‡(
+k°r
+ =
+NULL
+)
+
+2066 
+baû
+;
+
+2068 i‡(
+skùkeys
+) {
+
+2073 
+	`PyEº_SëSåög
+(
+PyExc_VÆueEº‹
+, "keys must beá string");
+
+2074 
+baû
+;
+
+2077 i‡(
+idx
+) {
+
+2078 i‡(
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+s
+->
+ôem_£∑øt‹
+))
+
+2079 
+baû
+;
+
+2082 
+ícoded
+ = 
+	`ícodî_ícode_°rög
+(
+s
+, 
+k°r
+);
+
+2083 
+	`Py_CLEAR
+(
+k°r
+);
+
+2084 i‡(
+ícoded
+ =
+NULL
+)
+
+2085 
+baû
+;
+
+2086 i‡(
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+ícoded
+)) {
+
+2087 
+	`Py_DECREF
+(
+ícoded
+);
+
+2088 
+baû
+;
+
+2090 
+	`Py_DECREF
+(
+ícoded
+);
+
+2091 i‡(
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+s
+->
+key_£∑øt‹
+))
+
+2092 
+baû
+;
+
+2093 i‡(
+	`ícodî_li°ícode_obj
+(
+s
+, 
+rvÆ
+, 
+vÆue
+, 
+ödít_Àvñ
+))
+
+2094 
+baû
+;
+
+2095 
+idx
+ += 1;
+
+2097 i‡(
+idít
+ !
+NULL
+) {
+
+2098 i‡(
+	`PyDi˘_DñIãm
+(
+s
+->
+m¨kîs
+, 
+idít
+))
+
+2099 
+baû
+;
+
+2100 
+	`Py_CLEAR
+(
+idít
+);
+
+2102 i‡(
+s
+->
+ödít
+ !
+Py_N⁄e
+) {
+
+2104 
+ödít_Àvñ
+ -= 1;
+
+2109 i‡(
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+˛o£_di˘
+))
+
+2110 
+baû
+;
+
+2113 
+baû
+:
+
+2114 
+	`Py_XDECREF
+(
+k°r
+);
+
+2115 
+	`Py_XDECREF
+(
+idít
+);
+
+2117 
+	}
+}
+
+2121 
+	$ícodî_li°ícode_li°
+(
+PyEncodîObje˘
+ *
+s
+, 
+PyObje˘
+ *
+rvÆ
+, PyObje˘ *
+£q
+, 
+Py_ssize_t
+ 
+ödít_Àvñ
+)
+
+2124 
+PyObje˘
+ *
+›í_¨øy
+ = 
+NULL
+;
+
+2125 
+PyObje˘
+ *
+˛o£_¨øy
+ = 
+NULL
+;
+
+2126 
+PyObje˘
+ *
+em±y_¨øy
+ = 
+NULL
+;
+
+2127 
+PyObje˘
+ *
+idít
+ = 
+NULL
+;
+
+2128 
+PyObje˘
+ *
+s_Á°
+ = 
+NULL
+;
+
+2129 
+Py_ssize_t
+ 
+num_ôems
+;
+
+2130 
+PyObje˘
+ **
+£q_ôems
+;
+
+2131 
+Py_ssize_t
+ 
+i
+;
+
+2133 i‡(
+›í_¨øy
+ =
+NULL
+ || 
+˛o£_¨øy
+ =NULL || 
+em±y_¨øy
+ == NULL) {
+
+2134 
+›í_¨øy
+ = 
+	`PySåög_I¡înFromSåög
+("[");
+
+2135 
+˛o£_¨øy
+ = 
+	`PySåög_I¡înFromSåög
+("]");
+
+2136 
+em±y_¨øy
+ = 
+	`PySåög_I¡înFromSåög
+("[]");
+
+2137 i‡(
+›í_¨øy
+ =
+NULL
+ || 
+˛o£_¨øy
+ =NULL || 
+em±y_¨øy
+ == NULL)
+
+2140 
+idít
+ = 
+NULL
+;
+
+2141 
+s_Á°
+ = 
+	`PySequí˚_Fa°
+(
+£q
+, "_iterencode_listÇeedsá sequence");
+
+2142 i‡(
+s_Á°
+ =
+NULL
+)
+
+2144 
+num_ôems
+ = 
+	`PySequí˚_Fa°_GET_SIZE
+(
+s_Á°
+);
+
+2145 i‡(
+num_ôems
+ == 0) {
+
+2146 
+	`Py_DECREF
+(
+s_Á°
+);
+
+2147  
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+em±y_¨øy
+);
+
+2150 i‡(
+s
+->
+m¨kîs
+ !
+Py_N⁄e
+) {
+
+2151 
+has_key
+;
+
+2152 
+idít
+ = 
+	`PyL⁄g_FromVoidPå
+(
+£q
+);
+
+2153 i‡(
+idít
+ =
+NULL
+)
+
+2154 
+baû
+;
+
+2155 
+has_key
+ = 
+	`PyDi˘_C⁄èös
+(
+s
+->
+m¨kîs
+, 
+idít
+);
+
+2156 i‡(
+has_key
+) {
+
+2157 i‡(
+has_key
+ != -1)
+
+2158 
+	`PyEº_SëSåög
+(
+PyExc_VÆueEº‹
+, "CircularÑeference detected");
+
+2159 
+baû
+;
+
+2161 i‡(
+	`PyDi˘_SëIãm
+(
+s
+->
+m¨kîs
+, 
+idít
+, 
+£q
+)) {
+
+2162 
+baû
+;
+
+2166 
+£q_ôems
+ = 
+	`PySequí˚_Fa°_ITEMS
+(
+s_Á°
+);
+
+2167 i‡(
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+›í_¨øy
+))
+
+2168 
+baû
+;
+
+2169 i‡(
+s
+->
+ödít
+ !
+Py_N⁄e
+) {
+
+2171 
+ödít_Àvñ
+ += 1;
+
+2178 
+i
+ = 0; i < 
+num_ôems
+; i++) {
+
+2179 
+PyObje˘
+ *
+obj
+ = 
+£q_ôems
+[
+i
+];
+
+2180 i‡(
+i
+) {
+
+2181 i‡(
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+s
+->
+ôem_£∑øt‹
+))
+
+2182 
+baû
+;
+
+2184 i‡(
+	`ícodî_li°ícode_obj
+(
+s
+, 
+rvÆ
+, 
+obj
+, 
+ödít_Àvñ
+))
+
+2185 
+baû
+;
+
+2187 i‡(
+idít
+ !
+NULL
+) {
+
+2188 i‡(
+	`PyDi˘_DñIãm
+(
+s
+->
+m¨kîs
+, 
+idít
+))
+
+2189 
+baû
+;
+
+2190 
+	`Py_CLEAR
+(
+idít
+);
+
+2192 i‡(
+s
+->
+ödít
+ !
+Py_N⁄e
+) {
+
+2194 
+ödít_Àvñ
+ -= 1;
+
+2199 i‡(
+	`PyLi°_Aµíd
+(
+rvÆ
+, 
+˛o£_¨øy
+))
+
+2200 
+baû
+;
+
+2201 
+	`Py_DECREF
+(
+s_Á°
+);
+
+2204 
+baû
+:
+
+2205 
+	`Py_XDECREF
+(
+idít
+);
+
+2206 
+	`Py_DECREF
+(
+s_Á°
+);
+
+2208 
+	}
+}
+
+2211 
+	$ícodî_dóŒoc
+(
+PyObje˘
+ *
+£lf
+)
+
+2214 
+	`ícodî_˛ór
+(
+£lf
+);
+
+2215 
+	`Py_TYPE
+(
+£lf
+)->
+	`ç_‰ì
+(self);
+
+2216 
+	}
+}
+
+2219 
+	$ícodî_åavî£
+(
+PyObje˘
+ *
+£lf
+, 
+visô¥oc
+ 
+visô
+, *
+¨g
+)
+
+2221 
+PyEncodîObje˘
+ *
+s
+;
+
+2222 
+	`as£π
+(
+	`PyEncodî_Check
+(
+£lf
+));
+
+2223 
+s
+ = (
+PyEncodîObje˘
+ *)
+£lf
+;
+
+2224 
+	`Py_VISIT
+(
+s
+->
+m¨kîs
+);
+
+2225 
+	`Py_VISIT
+(
+s
+->
+deÁu…‚
+);
+
+2226 
+	`Py_VISIT
+(
+s
+->
+ícodî
+);
+
+2227 
+	`Py_VISIT
+(
+s
+->
+ödít
+);
+
+2228 
+	`Py_VISIT
+(
+s
+->
+key_£∑øt‹
+);
+
+2229 
+	`Py_VISIT
+(
+s
+->
+ôem_£∑øt‹
+);
+
+2230 
+	`Py_VISIT
+(
+s
+->
+s‹t_keys
+);
+
+2231 
+	`Py_VISIT
+(
+s
+->
+skùkeys
+);
+
+2233 
+	}
+}
+
+2236 
+	$ícodî_˛ór
+(
+PyObje˘
+ *
+£lf
+)
+
+2239 
+PyEncodîObje˘
+ *
+s
+;
+
+2240 
+	`as£π
+(
+	`PyEncodî_Check
+(
+£lf
+));
+
+2241 
+s
+ = (
+PyEncodîObje˘
+ *)
+£lf
+;
+
+2242 
+	`Py_CLEAR
+(
+s
+->
+m¨kîs
+);
+
+2243 
+	`Py_CLEAR
+(
+s
+->
+deÁu…‚
+);
+
+2244 
+	`Py_CLEAR
+(
+s
+->
+ícodî
+);
+
+2245 
+	`Py_CLEAR
+(
+s
+->
+ödít
+);
+
+2246 
+	`Py_CLEAR
+(
+s
+->
+key_£∑øt‹
+);
+
+2247 
+	`Py_CLEAR
+(
+s
+->
+ôem_£∑øt‹
+);
+
+2248 
+	`Py_CLEAR
+(
+s
+->
+s‹t_keys
+);
+
+2249 
+	`Py_CLEAR
+(
+s
+->
+skùkeys
+);
+
+2251 
+	}
+}
+
+2253 
+PyDoc_STRVAR
+(
+ícodî_doc
+, "_iterencode(obj, _current_indent_level) -> iterable");
+
+2256 
+PyTy≥Obje˘
+ 
+	gPyEncodîTy≥
+ = {
+
+2257 
+PyObje˘_HEAD_INIT
+(
+NULL
+)
+
+2260 (
+PyEncodîObje˘
+),
+
+2262 
+ícodî_dóŒoc
+,
+
+2272 
+ícodî_ˇŒ
+,
+
+2277 
+Py_TPFLAGS_DEFAULT
+ | 
+Py_TPFLAGS_HAVE_GC
+,
+
+2278 
+ícodî_doc
+,
+
+2279 
+ícodî_åavî£
+,
+
+2280 
+ícodî_˛ór
+,
+
+2286 
+ícodî_membîs
+,
+
+2293 
+ícodî_öô
+,
+
+2295 
+ícodî_√w
+,
+
+2299 
+PyMëhodDef
+ 
+	g•ìdups_mëhods
+[] = {
+
+2301 (
+PyCFun˘i⁄
+)
+py_ícode_ba£°rög_ascii
+,
+
+2302 
+METH_O
+,
+
+2303 
+pydoc_ícode_ba£°rög_ascii
+},
+
+2305 (
+PyCFun˘i⁄
+)
+py_sˇn°rög
+,
+
+2306 
+METH_VARARGS
+,
+
+2307 
+pydoc_sˇn°rög
+},
+
+2308 {
+NULL
+, NULL, 0, NULL}
+
+2311 
+PyDoc_STRVAR
+(
+moduÀ_doc
+,
+
+2315 
+	$öô_•ìdups
+()
+
+2317 
+PyObje˘
+ *
+m
+;
+
+2318 
+PySˇ¬îTy≥
+.
+ç_√w
+ = 
+PyTy≥_GíîicNew
+;
+
+2319 i‡(
+	`PyTy≥_Ródy
+(&
+PySˇ¬îTy≥
+) < 0)
+
+2321 
+PyEncodîTy≥
+.
+ç_√w
+ = 
+PyTy≥_GíîicNew
+;
+
+2322 i‡(
+	`PyTy≥_Ródy
+(&
+PyEncodîTy≥
+) < 0)
+
+2324 
+m
+ = 
+	`Py_InôModuÀ3
+("_•ìdups", 
+•ìdups_mëhods
+, 
+moduÀ_doc
+);
+
+2325 
+	`Py_INCREF
+((
+PyObje˘
+*)&
+PySˇ¬îTy≥
+);
+
+2326 
+	`PyModuÀ_AddObje˘
+(
+m
+, "make_sˇ¬î", (
+PyObje˘
+*)&
+PySˇ¬îTy≥
+);
+
+2327 
+	`Py_INCREF
+((
+PyObje˘
+*)&
+PyEncodîTy≥
+);
+
+2328 
+	`PyModuÀ_AddObje˘
+(
+m
+, "make_ícodî", (
+PyObje˘
+*)&
+PyEncodîTy≥
+);
+
+2329 
+	}
+}
+
+	@
+1
+.
+0
+1
+23
+simplejson/_speedups.c

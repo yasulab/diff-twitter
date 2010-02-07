@@ -1,0 +1,50 @@
+IS_WHITESPACE	simplejson/_speedups.c	/^#define IS_WHITESPACE(c) (((c) == ' ') || ((c) == /
+PyEncoder_Check	simplejson/_speedups.c	/^#define PyEncoder_Check(op) PyObject_TypeCheck(op,/
+PyEncoder_CheckExact	simplejson/_speedups.c	/^#define PyEncoder_CheckExact(op) (Py_TYPE(op) == &/
+PyScanner_Check	simplejson/_speedups.c	/^#define PyScanner_Check(op) PyObject_TypeCheck(op,/
+PyScanner_CheckExact	simplejson/_speedups.c	/^#define PyScanner_CheckExact(op) (Py_TYPE(op) == &/
+Py_IS_FINITE	simplejson/_speedups.c	/^#define Py_IS_FINITE(X) (!Py_IS_INFINITY(X) && !Py/
+Py_TYPE	simplejson/_speedups.c	/^#define Py_TYPE(ob)     (((PyObject*)(ob))->ob_typ/
+S_CHAR	simplejson/_speedups.c	/^#define S_CHAR(c) (c >= ' ' && c <= '~' && c != '\\/
+_build_rval_index_tuple	simplejson/_speedups.c	/^_build_rval_index_tuple(PyObject *rval, Py_ssize_t/
+_convertPyInt_AsSsize_t	simplejson/_speedups.c	/^_convertPyInt_AsSsize_t(PyObject *o, Py_ssize_t *s/
+_convertPyInt_FromSsize_t	simplejson/_speedups.c	/^_convertPyInt_FromSsize_t(Py_ssize_t *size_ptr)$/
+_encoded_const	simplejson/_speedups.c	/^_encoded_const(PyObject *obj)$/
+_match_number_str	simplejson/_speedups.c	/^_match_number_str(PyScannerObject *s, PyObject *py/
+_match_number_unicode	simplejson/_speedups.c	/^_match_number_unicode(PyScannerObject *s, PyObject/
+_parse_array_str	simplejson/_speedups.c	/^_parse_array_str(PyScannerObject *s, PyObject *pys/
+_parse_array_unicode	simplejson/_speedups.c	/^_parse_array_unicode(PyScannerObject *s, PyObject /
+_parse_constant	simplejson/_speedups.c	/^_parse_constant(PyScannerObject *s, char *constant/
+_parse_object_str	simplejson/_speedups.c	/^_parse_object_str(PyScannerObject *s, PyObject *py/
+_parse_object_unicode	simplejson/_speedups.c	/^_parse_object_unicode(PyScannerObject *s, PyObject/
+_steal_list_append	simplejson/_speedups.c	/^_steal_list_append(PyObject *lst, PyObject *stolen/
+ascii_escape_char	simplejson/_speedups.c	/^ascii_escape_char(Py_UNICODE c, char *output, Py_s/
+ascii_escape_str	simplejson/_speedups.c	/^ascii_escape_str(PyObject *pystr)$/
+ascii_escape_unicode	simplejson/_speedups.c	/^ascii_escape_unicode(PyObject *pystr)$/
+encoder_call	simplejson/_speedups.c	/^encoder_call(PyObject *self, PyObject *args, PyObj/
+encoder_clear	simplejson/_speedups.c	/^encoder_clear(PyObject *self)$/
+encoder_dealloc	simplejson/_speedups.c	/^encoder_dealloc(PyObject *self)$/
+encoder_encode_float	simplejson/_speedups.c	/^encoder_encode_float(PyEncoderObject *s, PyObject /
+encoder_encode_string	simplejson/_speedups.c	/^encoder_encode_string(PyEncoderObject *s, PyObject/
+encoder_init	simplejson/_speedups.c	/^encoder_init(PyObject *self, PyObject *args, PyObj/
+encoder_listencode_dict	simplejson/_speedups.c	/^encoder_listencode_dict(PyEncoderObject *s, PyObje/
+encoder_listencode_list	simplejson/_speedups.c	/^encoder_listencode_list(PyEncoderObject *s, PyObje/
+encoder_listencode_obj	simplejson/_speedups.c	/^encoder_listencode_obj(PyEncoderObject *s, PyObjec/
+encoder_new	simplejson/_speedups.c	/^encoder_new(PyTypeObject *type, PyObject *args, Py/
+encoder_traverse	simplejson/_speedups.c	/^encoder_traverse(PyObject *self, visitproc visit, /
+init_speedups	simplejson/_speedups.c	/^init_speedups(void)$/
+join_list_string	simplejson/_speedups.c	/^join_list_string(PyObject *lst)$/
+join_list_unicode	simplejson/_speedups.c	/^join_list_unicode(PyObject *lst)$/
+py_encode_basestring_ascii	simplejson/_speedups.c	/^py_encode_basestring_ascii(PyObject* self UNUSED, /
+py_scanstring	simplejson/_speedups.c	/^py_scanstring(PyObject* self UNUSED, PyObject *arg/
+raise_errmsg	simplejson/_speedups.c	/^raise_errmsg(char *msg, PyObject *s, Py_ssize_t en/
+scan_once_str	simplejson/_speedups.c	/^scan_once_str(PyScannerObject *s, PyObject *pystr,/
+scan_once_unicode	simplejson/_speedups.c	/^scan_once_unicode(PyScannerObject *s, PyObject *py/
+scanner_call	simplejson/_speedups.c	/^scanner_call(PyObject *self, PyObject *args, PyObj/
+scanner_clear	simplejson/_speedups.c	/^scanner_clear(PyObject *self)$/
+scanner_dealloc	simplejson/_speedups.c	/^scanner_dealloc(PyObject *self)$/
+scanner_init	simplejson/_speedups.c	/^scanner_init(PyObject *self, PyObject *args, PyObj/
+scanner_new	simplejson/_speedups.c	/^scanner_new(PyTypeObject *type, PyObject *args, Py/
+scanner_traverse	simplejson/_speedups.c	/^scanner_traverse(PyObject *self, visitproc visit, /
+scanstring_str	simplejson/_speedups.c	/^scanstring_str(PyObject *pystr, Py_ssize_t end, ch/
+scanstring_unicode	simplejson/_speedups.c	/^scanstring_unicode(PyObject *pystr, Py_ssize_t end/

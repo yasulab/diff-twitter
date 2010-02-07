@@ -19,3 +19,22 @@ After clicking, diff-twitter starts to monitor the page you input, and if the pa
 How to stop diff-twitter tweeting to you:
 
 // TODO: we need to decide how to stop diff-twitter tweeting.
+
+
+How to collaborate with developing diff-twitter:
+
+1. Download Google App Engine 1.3 below and install it into your computer.
+
+http://code.google.com/intl/en/appengine/docs/python/gettingstarted/devenvironment.html
+
+2. Donwload diff-twitter source codes from github.com.
+
+http://github.com/yasu-ninety9/diff-twitter
+
+3. Replace twitter account info and its password in main.py with another twitter account, and check that it runs correctly. 
+
+4. Develop diff-twitter as you want, and if possible, push it onto mainstream on github.com.
+
+Thanks,
+Yohei Yasukawa
+yasu1000@gmail.com
