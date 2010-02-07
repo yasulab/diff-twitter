@@ -1,1 +1,21 @@
-README is now under construction...
+Description:
+The diff-twitter is a web application that tweet different lines between current page and old page to you using "@userID" from diff_bot. Therefore, if you would like to check some pages on the web, even though it does not have RSS or so, diff-twitter will monitor the page and let you know its update as soon as possible on Twitter.
+
+
+
+How to use diff-twitter:
+1. Visit the link below.
+
+http://diff-twitter.appspot.com/
+
+2. Input your twitter account and URL which you would like to monitor.
+
+3. Click on "Send to diff-twitter".
+
+After clicking, diff-twitter starts to monitor the page you input, and if the page updates, diff-twitter will tweet you the updated lines in the page.
+
+
+
+How to stop diff-twitter tweeting to you:
+
+// TODO: we need to decide how to stop diff-twitter tweeting.
