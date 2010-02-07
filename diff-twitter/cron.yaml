@@ -1,0 +1,5 @@
+cron:
+- description: dialy twit
+  url: /
+  schedule: every 3 seconds
+  timezone: Asia/Tokyo
